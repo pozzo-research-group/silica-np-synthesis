@@ -1,0 +1,537 @@
+INFO:root:test
+INFO:__main__:Homed Jubilee
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well A1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well A1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well A1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well A1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 13.905199294093563 uL ethanol into Well A1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Ethanol dispense complete: 1173.9051992940936 uL Ethanol dispensed into Well A1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well A2 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well A2 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well A2 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well A2 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 156.95907547214642 uL ethanol into Well A2 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Ethanol dispense complete: 1316.9590754721464 uL Ethanol dispensed into Well A2 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well A3 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well A3 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well A3 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 3.0093208316925484 uL ethanol into Well A3 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Ethanol dispense complete: 873.0093208316925 uL Ethanol dispensed into Well A3 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well A4 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well A4 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well A4 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 256.5929272988071 uL ethanol into Well A4 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Ethanol dispense complete: 1126.5929272988071 uL Ethanol dispensed into Well A4 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well A5 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well A5 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well A5 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well A5 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 152.0121114799997 uL ethanol into Well A5 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Ethanol dispense complete: 1312.0121114799997 uL Ethanol dispensed into Well A5 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well A6 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well A6 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well A6 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 272.89427659006924 uL ethanol into Well A6 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Ethanol dispense complete: 1142.8942765900692 uL Ethanol dispensed into Well A6 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well A7 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well A7 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well A7 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well A7 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 61.324404875645996 uL ethanol into Well A7 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Ethanol dispense complete: 1221.324404875646 uL Ethanol dispensed into Well A7 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well A8 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well A8 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well A8 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well A8 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 122.31032344276923 uL ethanol into Well A8 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Ethanol dispense complete: 1282.3103234427692 uL Ethanol dispensed into Well A8 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well B1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well B1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well B1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well B1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well B1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 14.14540642461111 uL ethanol into Well B1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Ethanol dispense complete: 1464.145406424611 uL Ethanol dispensed into Well B1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well B3 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well B3 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well B3 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 265.5012902549254 uL ethanol into Well B3 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Ethanol dispense complete: 1135.5012902549254 uL Ethanol dispensed into Well B3 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well B4 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well B4 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 142.16980556707063 uL ethanol into Well B4 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Ethanol dispense complete: 722.1698055670706 uL Ethanol dispensed into Well B4 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well B5 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well B5 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well B5 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 175.9206879431449 uL ethanol into Well B5 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Ethanol dispense complete: 1045.920687943145 uL Ethanol dispensed into Well B5 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well B6 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well B6 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well B6 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well B6 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 150.4384280813531 uL ethanol into Well B6 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Ethanol dispense complete: 1310.438428081353 uL Ethanol dispensed into Well B6 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well B8 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well B8 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well B8 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well B8 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 39.0697431702049 uL ethanol into Well B8 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Ethanol dispense complete: 1199.069743170205 uL Ethanol dispensed into Well B8 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well C1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well C1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well C1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well C1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 66.7500172661953 uL ethanol into Well C1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Ethanol dispense complete: 1226.7500172661953 uL Ethanol dispensed into Well C1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well C2 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well C2 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well C2 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well C2 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well C2 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 68.45827822699675 uL ethanol into Well C2 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Ethanol dispense complete: 1518.4582782269968 uL Ethanol dispensed into Well C2 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well C3 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well C3 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well C3 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well C3 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 193.99093380661907 uL ethanol into Well C3 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Ethanol dispense complete: 1353.990933806619 uL Ethanol dispensed into Well C3 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well C4 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well C4 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well C4 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well C4 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 139.27196366396424 uL ethanol into Well C4 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Ethanol dispense complete: 1299.2719636639642 uL Ethanol dispensed into Well C4 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well C5 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well C5 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well C5 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well C5 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 216.71062124619516 uL ethanol into Well C5 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Ethanol dispense complete: 1376.7106212461952 uL Ethanol dispensed into Well C5 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well C6 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well C6 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well C6 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well C6 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well C6 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 105.46784324756163 uL ethanol into Well C6 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Ethanol dispense complete: 1555.4678432475616 uL Ethanol dispensed into Well C6 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 336.7399980782345 uL of water_volume into Well A1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 217.9633831727814 uL of water_volume into Well A2 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Refilling 1cc_1 with 803.7033812510159 uL from Well A3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+INFO:stober_synthesis_utils:Dispensed 475.6234778969627 uL of water_volume into Well A3 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 359.7657137858073 uL of water_volume into Well A4 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 142.03408248114536 uL of water_volume into Well A5 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Refilling 1cc_1 with 977.4232741639153 uL from Well A3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+INFO:stober_synthesis_utils:Dispensed 269.18895470192484 uL of water_volume into Well A6 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 196.53574623968015 uL of water_volume into Well A7 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 159.7083267750013 uL of water_volume into Well A8 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 37.81542813720335 uL of water_volume into Well B1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 251.6345004902772 uL of water_volume into Well B3 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Refilling 1cc_1 with 914.8829563440868 uL from Well A3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+INFO:stober_synthesis_utils:Dispensed 468.7066868848378 uL of water_volume into Well B4 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 471.06854090498456 uL of water_volume into Well B5 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Refilling 1cc_1 with 939.7752277898223 uL from Well A3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+INFO:stober_synthesis_utils:Dispensed 231.53886898780627 uL of water_volume into Well B6 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 209.45619330625064 uL of water_volume into Well B8 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 107.28984525730212 uL of water_volume into Well C1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 38.50830305454988 uL of water_volume into Well C2 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 281.8439273323212 uL of water_volume into Well C3 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 128.7297620765563 uL of water_volume into Well C4 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Refilling 1cc_1 with 997.3669000147863 uL from Well A3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+INFO:stober_synthesis_utils:Dispensed 154.91319159046253 uL of water_volume into Well C5 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 55.638305311692754 uL of water_volume into Well C6 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 48.36189704858488 uL of ammonia_volume into Well A1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 142.66656828240036 uL of ammonia_volume into Well A2 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 76.6697216100366 uL of ammonia_volume into Well A3 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 102.3966637352548 uL of ammonia_volume into Well A4 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Refilling 1cc_2 with 967.4567477248615 uL from Well A2 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+INFO:stober_synthesis_utils:Dispensed 144.19865486057273 uL of ammonia_volume into Well A5 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 38.10567333217324 uL of ammonia_volume into Well A6 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 110.62814254909722 uL of ammonia_volume into Well A7 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 135.6013333935946 uL of ammonia_volume into Well A8 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 130.21580159513903 uL of ammonia_volume into Well B1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 109.444387592632 uL of ammonia_volume into Well B3 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 131.2513304468539 uL of ammonia_volume into Well B4 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 114.58314594153342 uL of ammonia_volume into Well B5 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Refilling 1cc_2 with 914.0284697115961 uL from Well A2 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+INFO:stober_synthesis_utils:Dispensed 137.35655146719674 uL of ammonia_volume into Well B6 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 51.09871067690906 uL of ammonia_volume into Well B8 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 105.73639585246508 uL of ammonia_volume into Well C1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 52.28976138712132 uL of ammonia_volume into Well C2 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 39.90709738476821 uL of ammonia_volume into Well C3 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 58.16105322313628 uL of ammonia_volume into Well C4 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 61.5104211397564 uL of ammonia_volume into Well C5 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 41.72802672876461 uL of ammonia_volume into Well C6 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Mixed well Well A1 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Mixed well Well A2 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Mixed well Well A3 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Mixed well Well A4 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Mixed well Well A5 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Mixed well Well A6 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Mixed well Well A7 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Mixed well Well A8 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Mixed well Well B1 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Mixed well Well B3 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Mixed well Well B4 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Mixed well Well B5 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Mixed well Well B6 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Mixed well Well B8 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Mixed well Well C1 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Mixed well Well C2 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Mixed well Well C3 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Mixed well Well C4 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Mixed well Well C5 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Mixed well Well C6 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:root:test
+INFO:root:test
+INFO:stober_synthesis_utils:Dispensed 240.9929055790872 uL of teos_volume into Well A1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Mixed well Well A1 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Dispensed 122.41097307267174 uL of teos_volume into Well A2 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Mixed well Well A2 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Refilling 1cc_3 with 672.4038786517589 uL from Well A1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+INFO:stober_synthesis_utils:Dispensed 374.6974796613082 uL of teos_volume into Well A3 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Mixed well Well A3 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Dispensed 211.24469518013083 uL of teos_volume into Well A4 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Mixed well Well A4 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Dispensed 201.7551511782821 uL of teos_volume into Well A5 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Mixed well Well A5 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Refilling 1cc_3 with 787.6973260197211 uL from Well A1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+INFO:stober_synthesis_utils:Dispensed 349.8110953758327 uL of teos_volume into Well A6 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Mixed well Well A6 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Dispensed 271.51170633557666 uL of teos_volume into Well A7 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Mixed well Well A7 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Dispensed 222.3800163886349 uL of teos_volume into Well A8 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Mixed well Well A8 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Refilling 1cc_3 with 843.7028181000443 uL from Well A1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+INFO:stober_synthesis_utils:Dispensed 167.82336384304634 uL of teos_volume into Well B1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Mixed well Well B1 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Dispensed 303.4198216621654 uL of teos_volume into Well B3 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Mixed well Well B3 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Dispensed 477.8721771012378 uL of teos_volume into Well B4 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Mixed well Well B4 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Refilling 1cc_3 with 949.1153626064495 uL from Well A1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+INFO:stober_synthesis_utils:Dispensed 168.42762521033745 uL of teos_volume into Well B5 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Mixed well Well B5 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Dispensed 120.66615146364371 uL of teos_volume into Well B6 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Mixed well Well B6 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Dispensed 340.3753528466356 uL of teos_volume into Well B8 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Mixed well Well B8 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Dispensed 360.22374162403764 uL of teos_volume into Well C1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Mixed well Well C1 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Refilling 1cc_3 with 989.6928711446544 uL from Well A1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+INFO:stober_synthesis_utils:Dispensed 190.743657331332 uL of teos_volume into Well C2 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Mixed well Well C2 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Dispensed 124.25804147629144 uL of teos_volume into Well C3 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Mixed well Well C3 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Dispensed 313.8372210363433 uL of teos_volume into Well C4 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Mixed well Well C4 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Dispensed 206.86576602358596 uL of teos_volume into Well C5 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Mixed well Well C5 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Dispensed 147.16582471198103 uL of teos_volume into Well C6 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Mixed well Well C6 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well C7 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well C7 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well C7 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 160.947676948575 uL ethanol into Well C7 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Ethanol dispense complete: 1030.947676948575 uL Ethanol dispensed into Well C7 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well C8 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well C8 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well C8 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 70.11690654198003 uL ethanol into Well C8 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Ethanol dispense complete: 940.11690654198 uL Ethanol dispensed into Well C8 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well D1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well D1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 285.59732932158965 uL ethanol into Well D1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Ethanol dispense complete: 865.5973293215897 uL Ethanol dispensed into Well D1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well D2 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well D2 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well D2 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 231.50905871948476 uL ethanol into Well D2 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Ethanol dispense complete: 1101.5090587194848 uL Ethanol dispensed into Well D2 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well D3 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well D3 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well D3 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 172.51895173581033 uL ethanol into Well D3 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Ethanol dispense complete: 1042.5189517358103 uL Ethanol dispensed into Well D3 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well D4 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well D4 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well D4 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well D4 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 284.63580921301036 uL ethanol into Well D4 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Ethanol dispense complete: 1444.6358092130104 uL Ethanol dispensed into Well D4 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well D5 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well D5 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well D5 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well D5 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 0.1406217642759202 uL ethanol into Well D5 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Ethanol dispense complete: 1160.140621764276 uL Ethanol dispensed into Well D5 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well D6 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well D6 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well D6 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 142.1478845602992 uL ethanol into Well D6 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Ethanol dispense complete: 1012.1478845602992 uL Ethanol dispensed into Well D6 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well D7 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well D7 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well D7 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well D7 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 93.73623521957597 uL ethanol into Well D7 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Ethanol dispense complete: 1253.736235219576 uL Ethanol dispensed into Well D7 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well D8 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well D8 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well D8 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 136.35167266450082 uL ethanol into Well D8 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Ethanol dispense complete: 1006.3516726645008 uL Ethanol dispensed into Well D8 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well E1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well E1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well E1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well E1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 140.27780034802436 uL ethanol into Well E1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Ethanol dispense complete: 1300.2778003480244 uL Ethanol dispensed into Well E1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well E3 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well E3 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well E3 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well E3 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 7.515274493183824 uL ethanol into Well E3 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Ethanol dispense complete: 1167.5152744931838 uL Ethanol dispensed into Well E3 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well E4 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well E4 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well E4 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well E4 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 278.3275923858214 uL ethanol into Well E4 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Ethanol dispense complete: 1438.3275923858214 uL Ethanol dispensed into Well E4 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well E5 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well E5 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well E5 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well E5 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 141.26138037915894 uL ethanol into Well E5 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Ethanol dispense complete: 1301.261380379159 uL Ethanol dispensed into Well E5 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well E6 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well E6 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well E6 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well E6 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well E6 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 21.76192777183155 uL ethanol into Well E6 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Ethanol dispense complete: 1471.7619277718316 uL Ethanol dispensed into Well E6 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well E8 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well E8 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well E8 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 145.30950282445758 uL ethanol into Well E8 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Ethanol dispense complete: 1015.3095028244576 uL Ethanol dispensed into Well E8 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well F1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well F1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well F1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well F1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 260.3023028742043 uL ethanol into Well F1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Ethanol dispense complete: 1420.3023028742043 uL Ethanol dispensed into Well F1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well F2 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well F2 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well F2 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 98.9374774058848 uL ethanol into Well F2 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Ethanol dispense complete: 968.9374774058848 uL Ethanol dispensed into Well F2 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well F3 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well F3 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well F3 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well F3 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 122.76363146815834 uL ethanol into Well F3 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Ethanol dispense complete: 1282.7636314681583 uL Ethanol dispensed into Well F3 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well F4 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well F4 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well F4 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 290 uL ethanol into Well F4 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 101.32772725501354 uL ethanol into Well F4 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Ethanol dispense complete: 1261.3277272550135 uL Ethanol dispensed into Well F4 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 281.24574866957937 uL of water_volume into Well C7 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 447.14420768587246 uL of water_volume into Well C8 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Refilling 1cc_1 with 977.3899563554519 uL from Well A3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+INFO:stober_synthesis_utils:Dispensed 400.0143094255091 uL of water_volume into Well D1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 478.6150953752586 uL of water_volume into Well D2 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Refilling 1cc_1 with 878.6294048007676 uL from Well A3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+INFO:stober_synthesis_utils:Dispensed 377.4303486737139 uL of water_volume into Well D3 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 71.4537728827769 uL of water_volume into Well D4 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 423.6517156130224 uL of water_volume into Well D5 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Refilling 1cc_1 with 872.5358371695133 uL from Well A3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+INFO:stober_synthesis_utils:Dispensed 453.4091605025912 uL of water_volume into Well D6 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 175.39807277786886 uL of water_volume into Well D7 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 324.42767729960866 uL of water_volume into Well D8 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Refilling 1cc_1 with 953.2349105800688 uL from Well A3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+INFO:stober_synthesis_utils:Dispensed 60.73095061688668 uL of water_volume into Well E1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 396.6554737153126 uL of water_volume into Well E3 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 39.76505120614127 uL of water_volume into Well E4 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 83.07635054180265 uL of water_volume into Well E5 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 116.732124294215 uL of water_volume into Well E6 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Refilling 1cc_1 with 696.9599503743582 uL from Well A3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+INFO:stober_synthesis_utils:Dispensed 439.7414139704377 uL of water_volume into Well E8 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 108.02787118141964 uL of water_volume into Well F1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 445.9601810368143 uL of water_volume into Well F2 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Refilling 1cc_1 with 993.7294661886715 uL from Well A3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+INFO:stober_synthesis_utils:Dispensed 224.45272040176368 uL of water_volume into Well F3 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 113.94119548851576 uL of water_volume into Well F4 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 68.1105007054896 uL of ammonia_volume into Well C7 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 104.33071250915896 uL of ammonia_volume into Well C8 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 133.0767321699386 uL of ammonia_volume into Well D1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 81.96239929683395 uL of ammonia_volume into Well D2 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Refilling 1cc_2 with 936.4803446814211 uL from Well A2 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+INFO:stober_synthesis_utils:Dispensed 93.87123129268852 uL of ammonia_volume into Well D3 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 35.0955244607886 uL of ammonia_volume into Well D4 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 112.66310484823912 uL of ammonia_volume into Well D5 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 141.92679260284683 uL of ammonia_volume into Well D6 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 107.40982952461206 uL of ammonia_volume into Well D7 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 73.37147047258107 uL of ammonia_volume into Well D8 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 89.58399078195094 uL of ammonia_volume into Well E1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 119.4497033718746 uL of ammonia_volume into Well E3 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 127.98598071155156 uL of ammonia_volume into Well E4 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Refilling 1cc_2 with 901.3576280671333 uL from Well A2 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+INFO:stober_synthesis_utils:Dispensed 127.88636972746792 uL of ammonia_volume into Well E5 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 77.67059321318908 uL of ammonia_volume into Well E6 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 49.63930349101981 uL of ammonia_volume into Well E8 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 110.4999314611617 uL of ammonia_volume into Well F1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 88.00343951561528 uL of ammonia_volume into Well F2 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 59.84568401415771 uL of ammonia_volume into Well F3 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Dispensed 124.82999643942377 uL of ammonia_volume into Well F4 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Mixed well Well C7 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Mixed well Well C8 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Mixed well Well D1 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Mixed well Well D2 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Mixed well Well D3 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Mixed well Well D4 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Mixed well Well D5 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Mixed well Well D6 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Mixed well Well D7 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Mixed well Well D8 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Mixed well Well E1 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Mixed well Well E3 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Mixed well Well E4 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Mixed well Well E5 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Mixed well Well E6 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Mixed well Well E8 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Mixed well Well F1 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Mixed well Well F2 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Mixed well Well F3 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Mixed well Well F4 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Refilling 1cc_3 with 982.8705105795336 uL from Well A1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+INFO:stober_synthesis_utils:Dispensed 419.6960736763561 uL of teos_volume into Well C7 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Mixed well Well C7 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Dispensed 308.4081732629886 uL of teos_volume into Well C8 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Mixed well Well C8 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Refilling 1cc_3 with 728.1042469393446 uL from Well A1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+INFO:stober_synthesis_utils:Dispensed 401.31162908296267 uL of teos_volume into Well D1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Mixed well Well D1 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Dispensed 137.9134466084226 uL of teos_volume into Well D2 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Mixed well Well D2 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Dispensed 286.17946829778714 uL of teos_volume into Well D3 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Mixed well Well D3 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Refilling 1cc_3 with 825.4045439891725 uL from Well A1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+INFO:stober_synthesis_utils:Dispensed 248.81489344342404 uL of teos_volume into Well D4 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Mixed well Well D4 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Dispensed 103.54455777446256 uL of teos_volume into Well D5 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Mixed well Well D5 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Dispensed 192.5161623342626 uL of teos_volume into Well D6 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Mixed well Well D6 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Dispensed 263.4558624779432 uL of teos_volume into Well D7 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Mixed well Well D7 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Refilling 1cc_3 with 808.3314760300923 uL from Well A1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+INFO:stober_synthesis_utils:Dispensed 395.8491795633091 uL of teos_volume into Well D8 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Mixed well Well D8 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Dispensed 349.4072582531382 uL of teos_volume into Well E1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Mixed well Well E1 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Dispensed 116.379548419629 uL of teos_volume into Well E3 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Mixed well Well E3 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Refilling 1cc_3 with 861.6359862360763 uL from Well A1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+INFO:stober_synthesis_utils:Dispensed 193.92137569648597 uL of teos_volume into Well E4 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Mixed well Well E4 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Dispensed 287.7758993515704 uL of teos_volume into Well E5 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Mixed well Well E5 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Dispensed 133.8353547207644 uL of teos_volume into Well E6 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Mixed well Well E6 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Dispensed 295.3097797140849 uL of teos_volume into Well E8 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Mixed well Well E8 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Refilling 1cc_3 with 910.8424094829056 uL from Well A1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+INFO:stober_synthesis_utils:Dispensed 161.1698944832142 uL of teos_volume into Well F1 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Mixed well Well F1 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Dispensed 297.0989020416857 uL of teos_volume into Well F2 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Mixed well Well F2 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Dispensed 232.93796411592035 uL of teos_volume into Well F3 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Mixed well Well F3 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+INFO:stober_synthesis_utils:Dispensed 299.9010808170468 uL of teos_volume into Well F4 form septavialrev1_44_holder_2000ul on slot 2
+INFO:stober_synthesis_utils:Mixed well Well F4 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
+INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
