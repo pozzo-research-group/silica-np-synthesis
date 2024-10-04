@@ -53,7 +53,7 @@ def add_etoh(jubilee, P300, sample_table, location_lookup, ethanol_stocks, max_p
         # etoh transfer execution
         for k in range(n_full_transfers):
             current_stock = _update_current_stock(ethanol_stocks, stock_volumes, max_pipette_volume)
-            P300.aspirate(max_pipette_volume, current_stock)
+            P300.aspirate(max_pipette_volume, current_stock.bottom(+5))
             P300.dispense(max_pipette_volume, dispense_loc.bottom(+22), s = 1000)
             time.sleep(3)
             stock_volumes[current_stock.name] -= max_pipette_volume
@@ -79,7 +79,7 @@ def _refill_syringe(syringe, stocks, stock_volumes):
     #2. aspirate from stock
 
     logger.info(f'Refilling {syringe.name} with {aspirate_vol} uL from {current_stock}')
-    syringe.aspirate(aspirate_vol, current_stock, s = 10)
+    syringe.aspirate(aspirate_vol, current_stock.bottom(+5), s = 10)
     #3. update remaining volumes
     stock_volumes[current_stock.name] -= aspirate_vol
 
