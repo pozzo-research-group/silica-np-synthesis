@@ -6,6 +6,7 @@ import pandas as pd
 
 class Reactant:
 
+
     def __init__(self, name, concentration, density, molecular_weight, minimum_volume_fraction, maximum_volume_fraction, source, manufacturer, lot_number):
 
         self.name = name
@@ -21,7 +22,9 @@ class Reactant:
 
 
 class SolidSilicaSample:
-
+    
+    silica_molecular_weight = 60.08 #g/mol
+    
     def __init__(self, target_volume, reactant_fp = None, teos_vol_frac = None, ammonia_vol_frac = None, water_vol_frac = None, reactants = None):
         
         self.target_volume = target_volume
@@ -78,11 +81,37 @@ class SolidSilicaSample:
 
         return
 
-    def calculate_concentration(self):
+    def calculate_silica_mass_concentration(self):
         """
-        Calculate the concentration of the sample. Not implemented
+        Calculate the silica mass concentration of the sample. Not implemented
         """
-        return None
+        
+        
+        self.silica_mass_conc = self.teos_vol_frac*self.teos.concentration*self.silica_molecular_weight
+    
+
+    def calculate_dilution_volumefraction(self, target_si_concentration):
+        """
+        Calculate the volume fraction of sample to use in measurement cell to reach target_si_concentration
+        """
+        self.dilution_volumefraction = target_si_concentration/(self.teos.concentration*self.teos_vol_frac)
+
+    def calculate_silica_mass_fraction(self):
+        
+
+
+        teos_mass = self.teos_vol_frac * self.teos.density
+        ammonia_mass = self.ammonia_vol_frac * self.ammonia.density
+        water_mass = self.water_vol_frac * self.water.density
+        ethanol_mass = self.ethanol_vol_frac * self.ethanol.density
+
+        silica_mols = teos_mass/self.teos.molecular_weight
+        silica_mass = silica_mols * self.silica_molecular_weight
+        total_sample_mass = ammonia_mass + teos_mass + ethanol_mass + water_mass
+
+        self.silica_mass_fraction = silica_mass/total_sample_mass
+
+
 
 
     def generate_random_vol_fractions(self):
@@ -130,6 +159,24 @@ def generate_synthesis_table(samples):
         sample_dict['water_volume'] = sample.water_volume
         sample_dict['ethanol_volume'] = sample.ethanol_volume
         sample_dicts.append(sample_dict)
+
+        if hasattr(sample, 'dilution_volumefraction'):
+            sample_dict['dilution_volume_fraction'] = sample.dilution_volumefraction
+
+        else:
+            sample_dict['dilution_volume_fraction'] = None
+
+        if hasattr(sample, 'silica_mass_conc'):
+            sample_dict['silica_mass_conc'] = sample.silica_mass_conc
+
+        else:
+            sample_dict['silica_mass_conc'] = None
+
+        if hasattr(sample, 'silica_mass_fraction'):
+            sample_dict['silica_mass_fraction'] = sample.silica_mass_fraction
+        else:
+            sample_dict['silica_mass_fraction'] = None
+
 
     
     sample_table = pd.DataFrame(sample_dicts)

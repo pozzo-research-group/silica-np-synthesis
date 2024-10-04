@@ -151,5 +151,3 @@ def first_mix(jubilee, mix_syringe, mix_vol, location_lookup, wash_stocks, n_mix
 
 
 
-
-
