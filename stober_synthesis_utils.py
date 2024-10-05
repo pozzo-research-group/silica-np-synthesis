@@ -86,7 +86,7 @@ def _refill_syringe(syringe, stocks, stock_volumes):
     return stock_volumes
 
 # for ammonia, water and TEOS
-def add_reactants_batch(jubilee, reactant_syringe, mix_syringe, sample_table, location_lookup, reactant_name, stocks, stocks_usable_volume = 17000, mix_after = None ):
+def add_reactants_batch(jubilee, reactant_syringe, mix_syringe, sample_table, location_lookup, reactant_name, stocks, stocks_usable_volume = 17000, mix_after = None, dwell_time = 3 ):
     
     if mix_after is not None:
         assert isinstance(mix_after, tuple), 'mix after must be a tuple containing mix_volume, n_mix, wash stocks'
@@ -113,7 +113,7 @@ def add_reactants_batch(jubilee, reactant_syringe, mix_syringe, sample_table, lo
             stock_volumes = _refill_syringe(reactant_syringe, stocks, stock_volumes)
 
         reactant_syringe.dispense(dispense_volume, dispense_location, s = 20)
-        time.sleep(3)
+        time.sleep(dwell_time)
         logger.info(f'Dispensed {dispense_volume} uL of {reactant_name} into {dispense_location}')
 
         if mix_after is not None:
