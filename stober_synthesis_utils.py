@@ -112,7 +112,7 @@ def add_reactants_batch(jubilee, reactant_syringe, mix_syringe, sample_table, lo
         if dispense_volume > reactant_syringe.remaining_volume:
             stock_volumes = _refill_syringe(reactant_syringe, stocks, stock_volumes)
 
-        reactant_syringe.dispense(dispense_volume, dispense_location, s = 20)
+        reactant_syringe.dispense(dispense_volume, dispense_location.bottom(+5), s = 20)
         time.sleep(dwell_time)
         logger.info(f'Dispensed {dispense_volume} uL of {reactant_name} into {dispense_location}')
 

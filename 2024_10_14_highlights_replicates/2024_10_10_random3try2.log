@@ -342,3 +342,47 @@
 2024-10-15 00:23:05,999:INFO:stober_synthesis_utils:Dispensed 134.0 uL of teos_volume into Well F4 form septavialrev1_44_holder_2000ul on slot 2
 2024-10-15 00:24:03,746:INFO:stober_synthesis_utils:Mixed well Well F4 form septavialrev1_44_holder_2000ul on slot 2 5 times, 2000 uL per cycle
 2024-10-15 00:27:09,125:INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well C2 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+2024-10-15 10:23:20,410:INFO:stober_synthesis_utils:Refilling 10cc_1 with 9998.0 uL from Well A4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+2024-10-15 10:23:57,429:INFO:stober_synthesis_utils:Dispensed 775.0 uL of ethanol_dilute_vol into Well A1 form septavialrev1_44_holder_2000ul on slot 2
+2024-10-15 10:24:07,549:INFO:stober_synthesis_utils:Dispensed 1144.0 uL of ethanol_dilute_vol into Well A2 form septavialrev1_44_holder_2000ul on slot 2
+2024-10-15 10:24:16,456:INFO:stober_synthesis_utils:Dispensed -605.0 uL of ethanol_dilute_vol into Well A3 form septavialrev1_44_holder_2000ul on slot 2
+2024-10-15 10:24:27,125:INFO:stober_synthesis_utils:Dispensed 1443.0 uL of ethanol_dilute_vol into Well A4 form septavialrev1_44_holder_2000ul on slot 2
+2024-10-15 10:24:37,310:INFO:stober_synthesis_utils:Dispensed 1233.0 uL of ethanol_dilute_vol into Well A5 form septavialrev1_44_holder_2000ul on slot 2
+2024-10-15 10:24:48,064:INFO:stober_synthesis_utils:Dispensed 1480.0 uL of ethanol_dilute_vol into Well A6 form septavialrev1_44_holder_2000ul on slot 2
+2024-10-15 10:24:58,245:INFO:stober_synthesis_utils:Dispensed 1239.0 uL of ethanol_dilute_vol into Well A7 form septavialrev1_44_holder_2000ul on slot 2
+2024-10-15 10:25:06,633:INFO:stober_synthesis_utils:Dispensed -288.0 uL of ethanol_dilute_vol into Well A8 form septavialrev1_44_holder_2000ul on slot 2
+2024-10-15 10:25:16,382:INFO:stober_synthesis_utils:Dispensed 496.0 uL of ethanol_dilute_vol into Well B1 form septavialrev1_44_holder_2000ul on slot 2
+2024-10-15 10:25:26,373:INFO:stober_synthesis_utils:Dispensed 1029.0 uL of ethanol_dilute_vol into Well B3 form septavialrev1_44_holder_2000ul on slot 2
+2024-10-15 10:25:35,520:INFO:stober_synthesis_utils:Dispensed -703.0 uL of ethanol_dilute_vol into Well B4 form septavialrev1_44_holder_2000ul on slot 2
+2024-10-15 10:25:45,691:INFO:stober_synthesis_utils:Dispensed 1189.0 uL of ethanol_dilute_vol into Well B5 form septavialrev1_44_holder_2000ul on slot 2
+2024-10-15 10:25:55,561:INFO:stober_synthesis_utils:Dispensed 1121.0 uL of ethanol_dilute_vol into Well B6 form septavialrev1_44_holder_2000ul on slot 2
+2024-10-15 10:25:55,562:INFO:stober_synthesis_utils:Refilling 10cc_1 with 9553.0 uL from Well B1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+2024-10-15 10:26:33,479:INFO:stober_synthesis_utils:Dispensed 967.0 uL of ethanol_dilute_vol into Well B8 form septavialrev1_44_holder_2000ul on slot 2
+2024-10-15 10:26:44,303:INFO:stober_synthesis_utils:Dispensed 1113.0 uL of ethanol_dilute_vol into Well C1 form septavialrev1_44_holder_2000ul on slot 2
+2024-10-15 10:26:54,948:INFO:stober_synthesis_utils:Dispensed 1483.0 uL of ethanol_dilute_vol into Well C2 form septavialrev1_44_holder_2000ul on slot 2
+2024-10-15 10:27:03,092:INFO:stober_synthesis_utils:Dispensed 278.0 uL of ethanol_dilute_vol into Well C3 form septavialrev1_44_holder_2000ul on slot 2
+2024-10-15 10:27:11,192:INFO:stober_synthesis_utils:Dispensed 244.0 uL of ethanol_dilute_vol into Well C4 form septavialrev1_44_holder_2000ul on slot 2
+2024-10-15 10:27:21,345:INFO:stober_synthesis_utils:Dispensed 1206.0 uL of ethanol_dilute_vol into Well C5 form septavialrev1_44_holder_2000ul on slot 2
+2024-10-15 10:27:29,609:INFO:stober_synthesis_utils:Dispensed 366.0 uL of ethanol_dilute_vol into Well C6 form septavialrev1_44_holder_2000ul on slot 2
+2024-10-15 10:27:40,360:INFO:stober_synthesis_utils:Dispensed 1491.0 uL of ethanol_dilute_vol into Well C7 form septavialrev1_44_holder_2000ul on slot 2
+2024-10-15 10:27:50,848:INFO:stober_synthesis_utils:Dispensed 1390.0 uL of ethanol_dilute_vol into Well C8 form septavialrev1_44_holder_2000ul on slot 2
+2024-10-15 10:28:02,476:INFO:stober_synthesis_utils:Dispensed 1447.0 uL of ethanol_dilute_vol into Well D1 form septavialrev1_44_holder_2000ul on slot 2
+2024-10-15 10:28:02,476:INFO:stober_synthesis_utils:Refilling 10cc_1 with 9985.0 uL from Well B2 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+2024-10-15 10:28:42,236:INFO:stober_synthesis_utils:Dispensed 1395.0 uL of ethanol_dilute_vol into Well D2 form septavialrev1_44_holder_2000ul on slot 2
+2024-10-15 10:28:51,837:INFO:stober_synthesis_utils:Dispensed 964.0 uL of ethanol_dilute_vol into Well D3 form septavialrev1_44_holder_2000ul on slot 2
+2024-10-15 10:29:02,147:INFO:stober_synthesis_utils:Dispensed 1302.0 uL of ethanol_dilute_vol into Well D4 form septavialrev1_44_holder_2000ul on slot 2
+2024-10-15 10:29:12,128:INFO:stober_synthesis_utils:Dispensed 1147.0 uL of ethanol_dilute_vol into Well D5 form septavialrev1_44_holder_2000ul on slot 2
+2024-10-15 10:29:22,512:INFO:stober_synthesis_utils:Dispensed 1275.0 uL of ethanol_dilute_vol into Well D6 form septavialrev1_44_holder_2000ul on slot 2
+2024-10-15 10:29:33,209:INFO:stober_synthesis_utils:Dispensed 1490.0 uL of ethanol_dilute_vol into Well D7 form septavialrev1_44_holder_2000ul on slot 2
+2024-10-15 10:29:43,380:INFO:stober_synthesis_utils:Dispensed 1180.0 uL of ethanol_dilute_vol into Well D8 form septavialrev1_44_holder_2000ul on slot 2
+2024-10-15 10:29:53,089:INFO:stober_synthesis_utils:Dispensed 548.0 uL of ethanol_dilute_vol into Well E1 form septavialrev1_44_holder_2000ul on slot 2
+2024-10-15 10:29:53,090:INFO:stober_synthesis_utils:Refilling 10cc_1 with 9301.0 uL from Well B3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+2024-10-15 10:30:31,026:INFO:stober_synthesis_utils:Dispensed 880.0 uL of ethanol_dilute_vol into Well E3 form septavialrev1_44_holder_2000ul on slot 2
+2024-10-15 10:30:41,455:INFO:stober_synthesis_utils:Dispensed 1363.0 uL of ethanol_dilute_vol into Well E4 form septavialrev1_44_holder_2000ul on slot 2
+2024-10-15 10:30:50,733:INFO:stober_synthesis_utils:Dispensed 751.0 uL of ethanol_dilute_vol into Well E5 form septavialrev1_44_holder_2000ul on slot 2
+2024-10-15 10:31:01,413:INFO:stober_synthesis_utils:Dispensed 1472.0 uL of ethanol_dilute_vol into Well E6 form septavialrev1_44_holder_2000ul on slot 2
+2024-10-15 10:31:12,166:INFO:stober_synthesis_utils:Dispensed 1438.0 uL of ethanol_dilute_vol into Well E8 form septavialrev1_44_holder_2000ul on slot 2
+2024-10-15 10:31:22,793:INFO:stober_synthesis_utils:Dispensed 1015.0 uL of ethanol_dilute_vol into Well F1 form septavialrev1_44_holder_2000ul on slot 2
+2024-10-15 10:31:31,644:INFO:stober_synthesis_utils:Dispensed -534.0 uL of ethanol_dilute_vol into Well F2 form septavialrev1_44_holder_2000ul on slot 2
+2024-10-15 10:31:42,394:INFO:stober_synthesis_utils:Dispensed 1517.0 uL of ethanol_dilute_vol into Well F3 form septavialrev1_44_holder_2000ul on slot 2
+2024-10-15 10:31:52,728:INFO:stober_synthesis_utils:Dispensed 1354.0 uL of ethanol_dilute_vol into Well F4 form septavialrev1_44_holder_2000ul on slot 2
