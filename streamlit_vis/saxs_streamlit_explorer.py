@@ -2,7 +2,7 @@ import streamlit as st
 import altair as alt
 import pandas as pd
 
-synth_data = pd.read_csv('2024_11_21_Optimization5/synth_table_ap_distance_11_21_24.csv')
+synth_data = pd.read_csv('synth_table_ap_distance_11_21_24.csv')
 
 synth_data['exp_apdist'] = np.exp(synth_data['ap_distance'])
 filepaths = [f'https://upconverting.blob.core.windows.net/silica-np-saxs/{uuid}.png' for uuid in synth_data['uuid']] 
