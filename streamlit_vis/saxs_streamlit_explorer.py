@@ -16,7 +16,7 @@ chart = alt.Chart(synth_data, width = 600, height = 500).mark_circle(size=100).e
     x = 'teos_vol_frac',
     y = 'water_vol_frac',
     color = 'exp_apdist',
-    tooltip=['uuid', 'image', 'ap_distance', 'rank', 'campaign', 'water_vol_frac'])
+    tooltip=['uuid', 'image', 'ap_distance', 'rank', 'campaign', 'ammonia_vol_frac'])
 
 st.title('TEOS_water parameter space')
 st.write('Mouse over chart to explore, Not recommended for mobile')
