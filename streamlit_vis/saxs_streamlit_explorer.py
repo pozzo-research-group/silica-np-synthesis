@@ -1,6 +1,8 @@
 import streamlit as st
 import altair as alt
 import pandas as pd
+import numpy as np
+
 
 synth_data = pd.read_csv('streamlit_vis/synth_table_ap_distance_11_21_24.csv')
 
