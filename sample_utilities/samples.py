@@ -57,7 +57,7 @@ class SolidSilicaSample:
             reactant_data = constants['ethanol']
             self.ethanol = Reactant('ethanol', reactant_data['stock_concentration'], density = reactant_data['density'], molecular_weight = reactant_data['molecular_weight'], minimum_volume_fraction=reactant_data['minimum_volume_fraction'], maximum_volume_fraction=reactant_data['maximum_volume_fraction'], source=reactant_data['stock_source'], manufacturer = reactant_data['manufacturer'], lot_number=reactant_data['lot_number'])
 
-            reactants = {'teos':self.teos, 'ammonia':self.ammonia, 'water':self.water, 'ethanol':self.ethanol}
+            self.reactants = {'teos':self.teos, 'ammonia':self.ammonia, 'water':self.water, 'ethanol':self.ethanol}
 
         if reactants is not None:
             # manual definition pathway
@@ -66,6 +66,12 @@ class SolidSilicaSample:
             self.water = reactants['water']
             self.ethanol = reactants['ethanol']
             self.reactants = reactants
+
+        if teos_vol_frac is not None:
+            self.teos_vol_frac = teos_vol_frac
+            self.ammonia_vol_frac = ammonia_vol_frac
+            self.water_vol_frac = water_vol_frac
+            self.ethanol_vol_frac = 1 - (teos_vol_frac + ammonia_vol_frac + water_vol_frac)
 
 
 
