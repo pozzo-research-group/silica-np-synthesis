@@ -7,7 +7,10 @@ import pandas as pd
 class Reactant:
 
 
-    def __init__(self, name, concentration, density, molecular_weight, minimum_volume_fraction, maximum_volume_fraction, source, manufacturer, lot_number):
+    def __init__(self, name, concentration, density, molecular_weight, minimum_volume_fraction, maximum_volume_fraction, source, manufacturer, lot_number, dilution_ratio = None):
+        """
+        Dilution ratio: how many times reactant is diluted (ie 6x dilution is 5 parts ethanol/1 part reactant)
+        """
 
         self.name = name
         self.concentration = concentration
@@ -18,6 +21,10 @@ class Reactant:
         self.source = source
         self.manufacturer = manufacturer
         self.lot_number = lot_number
+
+        if dilution_ratio is None:
+            dilution_ratio = 1
+        self.dilution_ratio = dilution_ratio
 
 
 
@@ -43,19 +50,19 @@ class SolidSilicaSample:
 
             # load TEOS
             reactant_data = constants['TEOS']
-            self.teos = Reactant('teos', reactant_data['stock_concentration'], density = reactant_data['density'], molecular_weight = reactant_data['molecular_weight'], minimum_volume_fraction=reactant_data['minimum_volume_fraction'], maximum_volume_fraction=reactant_data['maximum_volume_fraction'], source=reactant_data['stock_source'], manufacturer = reactant_data['manufacturer'], lot_number=reactant_data['lot_number'])
+            self.teos = Reactant('teos', reactant_data['stock_concentration'], density = reactant_data['density'], molecular_weight = reactant_data['molecular_weight'], minimum_volume_fraction=reactant_data['minimum_volume_fraction'], maximum_volume_fraction=reactant_data['maximum_volume_fraction'], source=reactant_data['stock_source'], manufacturer = reactant_data['manufacturer'], lot_number=reactant_data['lot_number'], dilution_ratio=reactant_data['dilution_ratio'])
 
             # Load ammonia
             reactant_data = constants['ammonia']
-            self.ammonia = Reactant('ammonia', reactant_data['stock_concentration'], density = reactant_data['density'], molecular_weight = reactant_data['molecular_weight'], minimum_volume_fraction=reactant_data['minimum_volume_fraction'], maximum_volume_fraction=reactant_data['maximum_volume_fraction'], source=reactant_data['stock_source'], manufacturer = reactant_data['manufacturer'], lot_number=reactant_data['lot_number'])
+            self.ammonia = Reactant('ammonia', reactant_data['stock_concentration'], density = reactant_data['density'], molecular_weight = reactant_data['molecular_weight'], minimum_volume_fraction=reactant_data['minimum_volume_fraction'], maximum_volume_fraction=reactant_data['maximum_volume_fraction'], source=reactant_data['stock_source'], manufacturer = reactant_data['manufacturer'], lot_number=reactant_data['lot_number'], dilution_ratio=reactant_data['dilution_ratio'])
 
             # Load water
             reactant_data = constants['water']
-            self.water = Reactant('water', reactant_data['stock_concentration'], density = reactant_data['density'], molecular_weight = reactant_data['molecular_weight'], minimum_volume_fraction=reactant_data['minimum_volume_fraction'], maximum_volume_fraction=reactant_data['maximum_volume_fraction'], source=reactant_data['stock_source'], manufacturer = reactant_data['manufacturer'], lot_number=reactant_data['lot_number'])
+            self.water = Reactant('water', reactant_data['stock_concentration'], density = reactant_data['density'], molecular_weight = reactant_data['molecular_weight'], minimum_volume_fraction=reactant_data['minimum_volume_fraction'], maximum_volume_fraction=reactant_data['maximum_volume_fraction'], source=reactant_data['stock_source'], manufacturer = reactant_data['manufacturer'], lot_number=reactant_data['lot_number'], dilution_ratio=reactant_data['dilution_ratio'])
 
             # Load ethanol
             reactant_data = constants['ethanol']
-            self.ethanol = Reactant('ethanol', reactant_data['stock_concentration'], density = reactant_data['density'], molecular_weight = reactant_data['molecular_weight'], minimum_volume_fraction=reactant_data['minimum_volume_fraction'], maximum_volume_fraction=reactant_data['maximum_volume_fraction'], source=reactant_data['stock_source'], manufacturer = reactant_data['manufacturer'], lot_number=reactant_data['lot_number'])
+            self.ethanol = Reactant('ethanol', reactant_data['stock_concentration'], density = reactant_data['density'], molecular_weight = reactant_data['molecular_weight'], minimum_volume_fraction=reactant_data['minimum_volume_fraction'], maximum_volume_fraction=reactant_data['maximum_volume_fraction'], source=reactant_data['stock_source'], manufacturer = reactant_data['manufacturer'], lot_number=reactant_data['lot_number'], dilution_ratio=reactant_data['dilution_ratio'])
 
             self.reactants = {'teos':self.teos, 'ammonia':self.ammonia, 'water':self.water, 'ethanol':self.ethanol}
 
@@ -79,11 +86,24 @@ class SolidSilicaSample:
     def calculate_reactant_volumes(self):
         """calculate the target volumes for each reactant from volume fraction and target volume"""
 
+        
+        dilution_ethanol_volume = 0
         # calculate ethanol volume
-        self.teos_volume = self.target_volume*self.teos_vol_frac
-        self.ammonia_volume = self.target_volume * self.ammonia_vol_frac
-        self.water_volume = self.target_volume * self.water_vol_frac
-        self.ethanol_volume = self.target_volume * self.ethanol_vol_frac
+        self.teos_volume = self.target_volume*self.teos_vol_frac*self.teos.dilution_ratio
+        teos_etoh_vol = self.teos_volume*(self.teos.dilution_ratio-1)/self.teos.dilution_ratio
+        dilution_ethanol_volume += teos_etoh_vol
+        #print(teos_etoh_vol)
+
+
+        self.ammonia_volume = self.target_volume * self.ammonia_vol_frac*self.ammonia.dilution_ratio
+        dilution_ethanol_volume += self.ammonia_volume * (self.ammonia.dilution_ratio-1)/self.ammonia.dilution_ratio
+
+        self.water_volume = self.target_volume * self.water_vol_frac*self.water.dilution_ratio
+        dilution_ethanol_volume += self.water_volume * (self.water.dilution_ratio - 1)/self.water.dilution_ratio
+
+        print(dilution_ethanol_volume)
+
+        self.ethanol_volume = self.target_volume * self.ethanol_vol_frac - dilution_ethanol_volume
 
         return
 
