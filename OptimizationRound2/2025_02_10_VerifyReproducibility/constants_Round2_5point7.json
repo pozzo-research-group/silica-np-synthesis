@@ -1,0 +1,46 @@
+{
+    "TEOS": {
+        "minimum_volume_fraction": 0.005,
+        "maximum_volume_fraction": 0.1,
+        "dilution_ratio":5.7,
+        "density": 0.933,
+        "stock_concentration": 4.48,
+        "molecular_weight": 208.33,
+        "stock_source": "Benson Jug",
+        "manufacturer": "Aldrich",
+        "lot_number": "WXBC2231V"
+    },
+    "water": {
+        "minimum_volume_fraction": 0.005,
+        "maximum_volume_fraction": 0.15,
+        "dilution_ratio":5.7,
+        "density": 0.9982,
+        "stock_concentration": 55.51,
+        "molecular_weight": 18.015,
+        "stock_source": "Benson DI machine",
+        "manufacturer": "nan",
+        "lot_number": "nan"
+    },
+    "ammonia": {
+        "minimum_volume_fraction": 0.005,
+        "maximum_volume_fraction": 0.10,
+        "dilution_ratio":5.7,
+        "density": 0.9,
+        "molecular_weight": 35.046,
+        "stock_concentration": 55.51,
+        "stock_source": "Benson vial",
+        "manufacturer": "Fisher scientific",
+        "lot_number": "146981"
+    },
+    "ethanol": {
+        "minimum_volume_fraction": 0.1,
+        "maximum_volume_fraction": 0.1,
+        "dilution_ratio": 1, 
+        "density": 0.789,
+        "molecular_weight": 46.07,
+        "stock_concentration": 55.51,
+        "stock_source": "Benson aliquot from MolES",
+        "manufacturer": "Decon_labs",
+        "lot_number": "A09101901S"
+    }
+}
