@@ -81,7 +81,9 @@ def _refill_syringe(syringe, stocks, stock_volumes):
     logger.info(f'Refilling {syringe.name} with {aspirate_vol} uL from {current_stock}')
     syringe.aspirate(aspirate_vol, current_stock.bottom(+5), s = 10)
     #3. update remaining volumes
-    stock_volumes[current_stock.name] -= aspirate_vol
+    #backlash correction
+    syringe.dispense(50, current_stock.bottom(+5), s = 10)
+    stock_volumes[current_stock.name] -= aspirate_vol + 50
 
     return stock_volumes
 
