@@ -110,13 +110,21 @@ def add_reactants_batch(jubilee, reactant_syringe, mix_syringe, sample_table, lo
 
         dispense_location = location_lookup[uuid]
 
-        # make sure syringe has enough volume
-        if dispense_volume > reactant_syringe.remaining_volume:
-            stock_volumes = _refill_syringe(reactant_syringe, stocks, stock_volumes)
 
-        reactant_syringe.dispense(dispense_volume, dispense_location.bottom(+5), s = 20)
-        time.sleep(dwell_time)
-        logger.info(f'Dispensed {dispense_volume} uL of {reactant_name} into {dispense_location}')
+
+
+        # need to account for dispenses > syringe volume
+        n_dispenses = int(np.ceil(dispense_location / (reactant_syringe.capacity)))
+        step_volume = dispense_volume/n_dispenses
+
+        for i in range(n_dispenses):
+            # make sure syringe has enough volume
+            if dispense_volume > reactant_syringe.remaining_volume:
+                stock_volumes = _refill_syringe(reactant_syringe, stocks, stock_volumes)
+
+            reactant_syringe.dispense(step_volume, dispense_location.bottom(+5), s = 20)
+            time.sleep(dwell_time)
+            logger.info(f'Dispensed {dispense_volume} uL of {reactant_name} into {dispense_location}')
 
         if mix_after is not None:
             jubilee.park_tool()
