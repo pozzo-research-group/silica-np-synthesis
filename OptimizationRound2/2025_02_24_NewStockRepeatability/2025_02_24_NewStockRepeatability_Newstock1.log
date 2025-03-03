@@ -1,0 +1,67 @@
+2025-02-24 18:41:26,253:INFO:stober_synthesis_utils:Refilling 10cc_1 with 3799 uL from Well A4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+2025-02-24 18:42:20,042:INFO:stober_synthesis_utils:Dispensed 7997.134 uL of ethanol_volume into Well B2 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-02-24 18:42:20,043:INFO:stober_synthesis_utils:Refilling 10cc_1 with 8047.134 uL from Well A4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+2025-02-24 18:43:25,001:INFO:stober_synthesis_utils:Dispensed 7997.134 uL of ethanol_volume into Well B3 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-02-24 18:43:25,001:INFO:stober_synthesis_utils:Refilling 10cc_1 with 8047.134 uL from Well B1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+2025-02-24 18:44:29,649:INFO:stober_synthesis_utils:Dispensed 7997.134 uL of ethanol_volume into Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-02-24 18:44:29,650:INFO:stober_synthesis_utils:Refilling 10cc_1 with 8047.134 uL from Well B2 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+2025-02-24 18:45:33,949:INFO:stober_synthesis_utils:Dispensed 7997.134 uL of ethanol_volume into Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-02-24 18:45:33,950:INFO:stober_synthesis_utils:Refilling 10cc_1 with 8047.134 uL from Well B3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+2025-02-24 18:46:38,940:INFO:stober_synthesis_utils:Dispensed 7997.134 uL of ethanol_volume into Well C2 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-02-24 18:47:02,740:INFO:__main__:Emptied ethanol syringe into trash
+2025-02-24 18:47:16,624:INFO:stober_synthesis_utils:Refilling 1cc_1 with 259 uL from Well A3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+2025-02-24 18:48:03,429:INFO:stober_synthesis_utils:Dispensed 1249.9815 uL of water_volume into Well B2 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-02-24 18:48:03,429:INFO:stober_synthesis_utils:Refilling 1cc_1 with 674.99075 uL from Well A3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+2025-02-24 18:49:00,328:INFO:stober_synthesis_utils:Dispensed 1249.9815 uL of water_volume into Well B2 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-02-24 18:49:00,329:INFO:stober_synthesis_utils:Refilling 1cc_1 with 674.99075 uL from Well A3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+2025-02-24 18:49:57,194:INFO:stober_synthesis_utils:Dispensed 1249.9815 uL of water_volume into Well B3 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-02-24 18:49:57,194:INFO:stober_synthesis_utils:Refilling 1cc_1 with 674.99075 uL from Well A3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+2025-02-24 18:50:53,557:INFO:stober_synthesis_utils:Dispensed 1249.9815 uL of water_volume into Well B3 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-02-24 18:50:53,558:INFO:stober_synthesis_utils:Refilling 1cc_1 with 674.99075 uL from Well A3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+2025-02-24 18:51:50,404:INFO:stober_synthesis_utils:Dispensed 1249.9815 uL of water_volume into Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-02-24 18:51:50,404:INFO:stober_synthesis_utils:Refilling 1cc_1 with 674.99075 uL from Well A3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+2025-02-24 18:52:47,111:INFO:stober_synthesis_utils:Dispensed 1249.9815 uL of water_volume into Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-02-24 18:52:47,111:INFO:stober_synthesis_utils:Refilling 1cc_1 with 674.99075 uL from Well A3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+2025-02-24 18:53:44,190:INFO:stober_synthesis_utils:Dispensed 1249.9815 uL of water_volume into Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-02-24 18:53:44,190:INFO:stober_synthesis_utils:Refilling 1cc_1 with 674.99075 uL from Well A3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+2025-02-24 18:54:41,245:INFO:stober_synthesis_utils:Dispensed 1249.9815 uL of water_volume into Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-02-24 18:54:41,246:INFO:stober_synthesis_utils:Refilling 1cc_1 with 674.99075 uL from Well A3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+2025-02-24 18:55:38,591:INFO:stober_synthesis_utils:Dispensed 1249.9815 uL of water_volume into Well C2 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-02-24 18:55:38,591:INFO:stober_synthesis_utils:Refilling 1cc_1 with 674.99075 uL from Well A3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+2025-02-24 18:56:35,928:INFO:stober_synthesis_utils:Dispensed 1249.9815 uL of water_volume into Well C2 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-02-24 18:57:10,539:INFO:stober_synthesis_utils:Dispensed 538.3935000000001 uL of ammonia_volume into Well B2 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-02-24 18:57:10,540:INFO:stober_synthesis_utils:Refilling 1cc_2_hamilton with 977.3935000000001 uL from Well A2 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+2025-02-24 18:58:09,218:INFO:stober_synthesis_utils:Dispensed 538.3935000000001 uL of ammonia_volume into Well B3 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-02-24 18:58:09,218:INFO:stober_synthesis_utils:Refilling 1cc_2_hamilton with 588.3935000000001 uL from Well A2 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+2025-02-24 18:58:59,445:INFO:stober_synthesis_utils:Dispensed 538.3935000000001 uL of ammonia_volume into Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-02-24 18:58:59,445:INFO:stober_synthesis_utils:Refilling 1cc_2_hamilton with 588.3935000000001 uL from Well A2 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+2025-02-24 18:59:50,105:INFO:stober_synthesis_utils:Dispensed 538.3935000000001 uL of ammonia_volume into Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-02-24 18:59:50,105:INFO:stober_synthesis_utils:Refilling 1cc_2_hamilton with 588.3935000000001 uL from Well A2 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+2025-02-24 19:00:40,940:INFO:stober_synthesis_utils:Dispensed 538.3935000000001 uL of ammonia_volume into Well C2 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-02-24 19:02:13,318:INFO:stober_synthesis_utils:Mixed well Well B2 form 20mLscintillation 12 Well Plate 18000 µL on slot 2 5 times, 5000 uL per cycle
+2025-02-24 19:07:12,351:INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well C2 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+2025-02-24 19:08:32,402:INFO:stober_synthesis_utils:Mixed well Well B3 form 20mLscintillation 12 Well Plate 18000 µL on slot 2 5 times, 5000 uL per cycle
+2025-02-24 19:13:31,612:INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well C2 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+2025-02-24 19:14:51,700:INFO:stober_synthesis_utils:Mixed well Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 2 5 times, 5000 uL per cycle
+2025-02-24 19:19:51,163:INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well C2 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+2025-02-24 19:21:11,969:INFO:stober_synthesis_utils:Mixed well Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 2 5 times, 5000 uL per cycle
+2025-02-24 19:26:11,370:INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well C2 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+2025-02-24 19:27:31,866:INFO:stober_synthesis_utils:Mixed well Well C2 form 20mLscintillation 12 Well Plate 18000 µL on slot 2 5 times, 5000 uL per cycle
+2025-02-24 19:32:31,195:INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well C2 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+2025-02-24 19:32:58,009:INFO:stober_synthesis_utils:Dispensed 214.491 uL of teos_volume into Well B2 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-02-24 19:35:09,558:INFO:stober_synthesis_utils:Mixed well Well B2 form 20mLscintillation 12 Well Plate 18000 µL on slot 2 5 times, 8000 uL per cycle
+2025-02-24 19:42:03,145:INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well C2 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+2025-02-24 19:42:29,774:INFO:stober_synthesis_utils:Dispensed 214.491 uL of teos_volume into Well B3 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-02-24 19:44:41,275:INFO:stober_synthesis_utils:Mixed well Well B3 form 20mLscintillation 12 Well Plate 18000 µL on slot 2 5 times, 8000 uL per cycle
+2025-02-24 19:51:35,055:INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well C2 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+2025-02-24 19:51:47,216:INFO:stober_synthesis_utils:Refilling 1cc_3_hamilton with 947.982 uL from Well A1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+2025-02-24 19:52:37,929:INFO:stober_synthesis_utils:Dispensed 214.491 uL of teos_volume into Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-02-24 19:54:49,665:INFO:stober_synthesis_utils:Mixed well Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 2 5 times, 8000 uL per cycle
+2025-02-24 20:01:43,520:INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well C2 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+2025-02-24 20:02:10,824:INFO:stober_synthesis_utils:Dispensed 214.491 uL of teos_volume into Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-02-24 20:04:23,096:INFO:stober_synthesis_utils:Mixed well Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 2 5 times, 8000 uL per cycle
+2025-02-24 20:11:17,130:INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well C2 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+2025-02-24 20:11:44,364:INFO:stober_synthesis_utils:Dispensed 214.491 uL of teos_volume into Well C2 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-02-24 20:13:56,541:INFO:stober_synthesis_utils:Mixed well Well C2 form 20mLscintillation 12 Well Plate 18000 µL on slot 2 5 times, 8000 uL per cycle
+2025-02-25 16:36:09,827:ERROR:ipykernel.comm:No such comm target registered: jupyter.widget.control
+2025-02-25 16:36:09,849:WARNING:Comm:No such comm: 428087f6-ff36-4267-b627-0953f6dfa555
