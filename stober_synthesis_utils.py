@@ -72,14 +72,14 @@ def add_etoh(jubilee, P300, sample_table, location_lookup, ethanol_stocks, max_p
     P300.drop_tip()
     jubilee.park_tool()
 
-def _refill_syringe(syringe, stocks, stock_volumes):
+def _refill_syringe(syringe, stocks, stock_volumes, refill_dwell):
     #1. get current stock to use
     aspirate_vol = syringe.capacity - syringe.remaining_volume - 1 
     current_stock = _update_current_stock(stocks, stock_volumes, aspirate_vol)
     #2. aspirate from stock
 
     logger.info(f'Refilling {syringe.name} with {aspirate_vol} uL from {current_stock}')
-    syringe.aspirate(aspirate_vol, current_stock.bottom(+5), s = 10)
+    syringe.aspirate(aspirate_vol, current_stock.bottom(+5), s = 10, dwell_before = refill_dwell)
     #3. update remaining volumes
     #backlash correction
     syringe.dispense(50, current_stock.bottom(+5), s = 10)
@@ -88,7 +88,7 @@ def _refill_syringe(syringe, stocks, stock_volumes):
     return stock_volumes
 
 # for ammonia, water and TEOS
-def add_reactants_batch(jubilee, reactant_syringe, mix_syringe, sample_table, location_lookup, reactant_name, stocks, stocks_usable_volume = 17000, mix_after = None, dwell_time = 3 ):
+def add_reactants_batch(jubilee, reactant_syringe, mix_syringe, sample_table, location_lookup, reactant_name, stocks, stocks_usable_volume = 17000, mix_after = None, dwell_time = 3, wait = False, refill_dwell = 0, n_rinse = 5, return_time = False):
     
     if mix_after is not None:
         assert isinstance(mix_after, tuple), 'mix after must be a tuple containing mix_volume, n_mix, wash stocks'
@@ -114,17 +114,19 @@ def add_reactants_batch(jubilee, reactant_syringe, mix_syringe, sample_table, lo
 
 
         # need to account for dispenses > syringe volume
-        n_dispenses = int(np.ceil(dispense_location / (reactant_syringe.capacity)))
+        n_dispenses = int(np.ceil(dispense_volume / (reactant_syringe.capacity)))
         step_volume = dispense_volume/n_dispenses
-
+        print(f'breaking dispense into {n_dispenses} of volume {step_volume}')
         for i in range(n_dispenses):
             # make sure syringe has enough volume
             if dispense_volume > reactant_syringe.remaining_volume:
-                stock_volumes = _refill_syringe(reactant_syringe, stocks, stock_volumes)
+                stock_volumes = _refill_syringe(reactant_syringe, stocks, stock_volumes, refill_dwell)
+                print('remaining vol: ', reactant_syringe.remaining_volume)
 
             reactant_syringe.dispense(step_volume, dispense_location.bottom(+5), s = 20)
             time.sleep(dwell_time)
             logger.info(f'Dispensed {dispense_volume} uL of {reactant_name} into {dispense_location}')
+        dispense_time = time.time()
 
         if mix_after is not None:
             jubilee.park_tool()
@@ -134,18 +136,23 @@ def add_reactants_batch(jubilee, reactant_syringe, mix_syringe, sample_table, lo
             logger.info(f'Mixed well {dispense_location} {n_mix} times, {mix_vol} uL per cycle')
 
             for stock in wash_stocks:
-                mix_syringe.mix(mix_vol, 5, stock.bottom(+10), t_hold = 3, s_aspirate = 2000, s_dispense = 500)
+                mix_syringe.mix(mix_vol, n_rinse, stock.bottom(+10), t_hold = 3, s_aspirate = 2000, s_dispense = 500)
 
             logger.info(f'Washed mix syringe in wash solutions {wash_stocks}')
 
             jubilee.park_tool()
             jubilee.pickup_tool(reactant_syringe)
+        if wait:
+            jubilee.move_to(z = 200)
+            inp = input('Hit any key when ready to continue')
 
 
     jubilee.park_tool()
+    if return_time:
+        return dispense_time
 
 
-def first_mix(jubilee, mix_syringe, mix_vol, location_lookup, wash_stocks, n_mix):
+def first_mix(jubilee, mix_syringe, mix_vol, location_lookup, wash_stocks, n_mix, n_rinse = 5):
     jubilee.pickup_tool(mix_syringe)
     
     for name, well in location_lookup.items():
@@ -153,11 +160,13 @@ def first_mix(jubilee, mix_syringe, mix_vol, location_lookup, wash_stocks, n_mix
         logger.info(f'Mixed well {well} {n_mix} times, {mix_vol} uL per cycle')
 
         for stock in wash_stocks:
-            mix_syringe.mix(mix_vol, 5, stock.bottom(+10), t_hold = 3, s_aspirate = 2000, s_dispense = 500)
+            mix_syringe.mix(mix_vol, n_rinse, stock.bottom(+10), t_hold = 3, s_aspirate = 2000, s_dispense = 500)
 
         logger.info(f'Washed mix syringe in wash solutions {wash_stocks}')
 
     jubilee.park_tool()
+
+
 
 
 
