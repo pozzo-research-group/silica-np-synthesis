@@ -9,6 +9,36 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+
+class Stocks():
+
+    def __init__(self, stock_list, usable_volume = 17000):
+        """
+        Keeps track of available stock volumes in each stock vial
+        """
+
+        self.current_volumes = {stock.name:usable_volume for stock in stock_list}
+        self.stock_list_lookup = {stock.name:stock for stock in stock_list}
+
+    def get_available_stock(self, transfer_volume, update = True):
+        """
+        Find the next appropriate stock vial with enough stock for the transfer
+        """
+        for name, volume in self.current_volumes.items():
+            if volume > transfer_volume:
+                if update:
+                    self.update_available_volume(name, transfer_volume)
+                return self.stock_list_lookup[name]
+        
+        raise AssertionError(f'Ran out of ethanol stocks - no vial contains enough for {transfer_volume} uL transfer. Current volumes: {self.current_volumes}')
+
+    def update_available_volume(self, stock, volume_used):
+        """
+        Update the available volume for a stock
+        """
+        self.current_volumes[stock.name] -= volume_used
+
+
 def _update_current_stock(stocks, stock_volumes, transfer_volume):
     """
     Find the next appropriate stock vial with enough stock for the transfer
@@ -72,10 +102,10 @@ def add_etoh(jubilee, P300, sample_table, location_lookup, ethanol_stocks, max_p
     P300.drop_tip()
     jubilee.park_tool()
 
-def _refill_syringe(syringe, stocks, stock_volumes, refill_dwell):
+def _refill_syringe(syringe, stocks, refill_dwell):
     #1. get current stock to use
     aspirate_vol = syringe.capacity - syringe.remaining_volume - 1 
-    current_stock = _update_current_stock(stocks, stock_volumes, aspirate_vol)
+    current_stock = stocks.get_available_stock(aspirate_vol, update = False)
     #2. aspirate from stock
 
     logger.info(f'Refilling {syringe.name} with {aspirate_vol} uL from {current_stock}')
@@ -83,12 +113,12 @@ def _refill_syringe(syringe, stocks, stock_volumes, refill_dwell):
     #3. update remaining volumes
     #backlash correction
     syringe.dispense(50, current_stock.bottom(+5), s = 10)
-    stock_volumes[current_stock.name] -= aspirate_vol + 50
+    stocks.update_available_volume(current_stock, aspirate_vol + 50)
 
-    return stock_volumes
+    return
 
 # for ammonia, water and TEOS
-def add_reactants_batch(jubilee, reactant_syringe, mix_syringe, sample_table, location_lookup, reactant_name, stocks, stocks_usable_volume = 17000, mix_after = None, dwell_time = 3, wait = False, refill_dwell = 0, n_rinse = 5, return_time = False):
+def add_reactants_batch(jubilee, reactant_syringe, mix_syringe, sample_table, location_lookup, reactant_name, stocks, mix_after = None, dwell_time = 3, wait = False, refill_dwell = 0, n_rinse = 5, return_time = False):
     
     if mix_after is not None:
         assert isinstance(mix_after, tuple), 'mix after must be a tuple containing mix_volume, n_mix, wash stocks'
@@ -100,8 +130,6 @@ def add_reactants_batch(jubilee, reactant_syringe, mix_syringe, sample_table, lo
     
     jubilee.pickup_tool(reactant_syringe)
 
-    stock_volumes = {stock.name:stocks_usable_volume for stock in stocks}
-
 
     for i, row in sample_table.iterrows():
 
@@ -110,17 +138,15 @@ def add_reactants_batch(jubilee, reactant_syringe, mix_syringe, sample_table, lo
 
         dispense_location = location_lookup[uuid]
 
-
-
-
         # need to account for dispenses > syringe volume
         n_dispenses = int(np.ceil(dispense_volume / (reactant_syringe.capacity)))
         step_volume = dispense_volume/n_dispenses
         print(f'breaking dispense into {n_dispenses} of volume {step_volume}')
+
         for i in range(n_dispenses):
             # make sure syringe has enough volume
             if dispense_volume > reactant_syringe.remaining_volume:
-                stock_volumes = _refill_syringe(reactant_syringe, stocks, stock_volumes, refill_dwell)
+                _refill_syringe(reactant_syringe, stocks, refill_dwell)
                 print('remaining vol: ', reactant_syringe.remaining_volume)
 
             reactant_syringe.dispense(step_volume, dispense_location.bottom(+5), s = 20)
@@ -165,6 +191,70 @@ def first_mix(jubilee, mix_syringe, mix_vol, location_lookup, wash_stocks, n_mix
         logger.info(f'Washed mix syringe in wash solutions {wash_stocks}')
 
     jubilee.park_tool()
+
+
+def reactant_transfer(jubilee, syringe, stocks, destination, volume, volume_buffer, rinse_stocks = None, rinse_vol = 500, n_rinse = 1, dwell_time = 3):
+    """ Reactant transfer using non-dedicated syringe in a one at a time manner. 
+
+
+    Params:
+    -------
+    jubilee: Jubilee object
+    syringe: syringe object
+    source: well object
+    destination: well object
+    volume: float, volume to transfer
+    volume_buffer: float, buffer volume aspirate in syringe
+    rinse_stocks: list of well objects, stocks to rinse syringe in
+    rinse_vol: float, volume to rinse syringe in
+    n_rinse: int, number of times to rinse syringe
+    dwell_time: float, time to dwell after dispensing
+
+
+
+    """
+    syringe.set_pulsewidth(syringe.empty_position - 1)
+    syringe.load_syringe(0, syringe.empty_position-1)
+
+    jubilee.pickup_tool(syringe)
+
+    
+    # need to account for dispenses > syringe volume
+    n_dispenses = int(np.ceil(volume / (syringe.capacity - volume_buffer)))
+    step_volume = volume/n_dispenses
+    print(f'breaking dispense into {n_dispenses} of volume {step_volume}')
+    
+    for i in range(n_dispenses):
+        # make sure syringe has enough volume
+        if i == 0:
+            source = stocks.get_available_stock(step_volume + volume_buffer, update = False)
+            syringe.aspirate(step_volume + volume_buffer, source.bottom(+5), s = 10, dwell_before = 5)
+            stocks.update_available_volume(source, step_volume + volume_buffer)
+        else:
+            source = stocks.get_available_stock(step_volume, update = False)
+            syringe.aspirate(step_volume, source.bottom(+5), s = 10, dwell_before = 5)
+            stocks.update_available_volume(source, step_volume)
+
+        
+        
+
+        syringe.dispense(step_volume, destination.bottom(+5), s = 200)
+        time.sleep(dwell_time)
+        logger.info(f'Dispensed {volume} uL from {source} into {destination}')
+
+    syringe.dispense(volume_buffer, source.bottom(+5), s = 20)
+
+    if rinse_stocks is not None:
+        print(f'Rinsing {syringe.name}') 
+        for stock in rinse_stocks:
+            syringe.mix(rinse_vol, n_rinse, stock.bottom(+10), t_hold = 3, s_aspirate = 2000, s_dispense = 1000)
+
+        logger.info(f'Washed mix syringe in wash solutions {rinse_stocks}')
+
+    jubilee.park_tool()
+    syringe.set_pulsewidth(syringe.empty_position - 1)
+    syringe.load_syringe(0, syringe.empty_position-1)
+
 
 
 
