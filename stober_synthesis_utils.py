@@ -6,6 +6,8 @@ from science_jubilee.tools import Pipette
 import time
 import numpy as np
 import logging
+import json
+from sample_utilities import samples
 
 logger = logging.getLogger(__name__)
 
@@ -260,6 +262,70 @@ def reactant_transfer(jubilee, syringe, stocks, destination, volume, volume_buff
     syringe.load_syringe(0, syringe.empty_position-1)
 
 
+
+def get_next_sample(constants_fp, config_fp, synthesized_samples_fp):
+    """
+    Get the next sample to make from the sample server 
+    """
+    # load config
+    with open(config_fp, 'r') as f:
+        config = json.load(f)
+
+    with open(constants_fp, 'r') as f:
+        constants = json.load(f)
+
+    with open(synthesized_samples_fp, 'r') as f:
+        synthesized_samples = [line.rstrip() for line in f]
+
+    url = f'http://{config["sample_server"]["ip_address"]}:{config["sample_server"]["port"]}/get_proposed_candidates'
+
+    response = requests.get(url)
+    proposed_samples = response.json()
+
+    proposed_samples = {sample['id']:sample for sample in proposed_samples}
+    proposed_samples_uuids = list(proposed_samples.keys())
+
+
+
+    # remove synthesized samples from proposed samples
+    proposed_samples_uuids = [sample for sample in proposed_samples_uuids if sample not in synthesized_samples]
+
+    if len(proposed_samples) > 1:
+        print(f'Multiple samples proposed: {proposed_samples}')
+        # need to get oldest sample
+
+        sample_orders = [proposed_samples[uuid]['sample_order'] for uuid in proposed_samples_uuids]
+        selected_sample_uuid = proposed_samples_uuids[np.argmin(sample_orders)]
+        selected_sample = proposed_samples[selected_sample_uuid]
+
+    else:
+        selected_sample_uuid = proposed_samples_uuids[0]
+        selected_sample = proposed_samples[selected_sample_uuid]
+
+    teos_vol_frac = selected_sample['teos_vf']
+    ethanol_vol_frac = selected_sample['ethanol_vf']
+    ammonia_vol_frac = selected_sample['ammonia_vf']
+    water_vol_frac = selected_sample['water_vf']
+    ctab_mass_conc = selected_sample['ctab_mass']
+    f127_mass_conc = selected_sample['f127_mass']
+
+    target_volume = config['experiment_constants']['target_volume']
+
+    # convert candidate volume fracctions to volumes - neeed to account for dilutions here
+    sample = samples.MesoporousSample(target_volume, constants_fp, teos_vol_frac=teos_vol_frac, ammonia_vol_frac=ammonia_vol_frac, water_vol_frac=water_vol_frac, ethanol_vol_frac=ethanol_vol_frac, ctab_mass=ctab_mass_conc, f127_mass=f127_mass_conc)
+    sample.calculate_reactant_volumes()
+
+    composition_dict = {
+    'teos_volume':sample.teos_volume,
+    'ammonia_volume':sample.ammonia_volume,
+    'water_volume':sample.water_volume,
+    'ethanol_volume':sample.ethanol_volume,
+    'ctab_volume':sample.ctab_volume,
+    'f127_volume':sample.f127_volume
+    }
+
+    # return the next sample to make
+    return selected_sample_uuid, composition_dict
 
 
 
