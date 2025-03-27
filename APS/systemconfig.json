@@ -1,0 +1,40 @@
+{
+    "sample_server": {
+        "ip_address": "127.0.0.1",
+        "port": 5000
+    },
+    "experiment_constants": {
+        "target_volume": 10000
+    },
+    "processing_constants": {
+        "q_min_subtract": 0.002,
+        "q_max_subtract": 0.035,
+        "q_min_spl": 0.003,
+        "n_interpolate_gridpts": 1001,
+        "q_split_hilo":0.02,
+        "target_r_nm": 350,
+        "target_pdi": 0.08,
+        "sld_silica": 8.575,
+        "sld_ethanol": 9.611,
+        "savgol_n": 15,
+        "savgol_order": 3,
+        "min_data_len": 100,
+        "spline_s": 0.05,
+        "spline_k": 3,
+        "scale_n_avg":100,
+        "apdist_optim": "DP",
+        "apdist_grid_dim": 10
+    },
+    "bayesian_optimization_constants": {
+
+        "batch_size": 1,
+        "num_restarts": 50,
+        "raw_samples": 512,
+        "n_batch": 210,
+        "mc_samples": 512,
+        "kernel_nu": 2.5,
+        "ard_num_dims": 5,
+        "assumed_noise_level": 0.05,
+        "amplitude_weight": 0.1
+    }
+}
