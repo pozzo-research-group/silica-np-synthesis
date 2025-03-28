@@ -30,7 +30,7 @@ class Stocks():
             if volume > transfer_volume:
                 stock = self.stock_list_lookup[name]
                 if update:
-                    self.update_available_volume(stock.name, transfer_volume)
+                    self.update_available_volume(stock, transfer_volume)
                 return stock
         
         raise AssertionError(f'Ran out of ethanol stocks - no vial contains enough for {transfer_volume} uL transfer. Current volumes: {self.current_volumes}')
