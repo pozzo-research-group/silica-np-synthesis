@@ -1,6 +1,7 @@
 import datetime
 import subprocess
 import shlex
+import requests
 
 ip = '18.216.44.137'
 remote_username = 'ubuntu'
@@ -64,5 +65,70 @@ def copy_remote_file(instance_ip, user_name, remote_path, local_path, pem_path,c
          print(f"Error copying file: {e}")
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
+
+
+
+def watch_usaxs_measurement(sample_uuid, ip):
+
+    """
+    Starts a monitoring thread to watch USAXS measurements for a given sample UUID.
+
+    Args:
+        sample_uuid (str): UUID of the sample being measured
+    """
+    import threading
+
+    monitor_thread = threading.Thread(target=saxs_monitor, args=(sample_uuid, ip))
+    monitor_thread.daemon = True  # Thread will exit when main program exits
+    monitor_thread.start()
+
+    return monitor_thread
+
+
+def saxs_monitor(sample_uuid, usaxs_server_ip, afl_ip):
+
+
+    usaxs_server_url = 'http://' + usaxs_server_ip + ':5000/check_usaxs_status'
+    afl_url = 'http://' + afl_ip + ':5000'
+
+    username = 'test'
+    password = 'domo_arigato'
+
+
+
+    while True:
+        response = requests.post(usaxs_server_url, json={'id': sample_uuid})
+
+        status = response.json()['usaxs_status']
+
+        if status == 'complete':
+            break
+
+    # call AFL rinse
+
+    # login
+    r = requests.post(
+            afl_url + "/login",
+            json={"username": username, "password": password},
+        )
+
+    token = r.json()["token"]
+    auth_header = {"Authorization": f"Bearer {token}"}
+
+    task = {"task_name": "rinseCell"}
+
+    r = requests.post(afl_url + "/enqueue", headers=auth_header, json=task)
+
+    if r.status_code != 200:
+            raise Exception(f"Error enqueuing task: {r.json()}")
+
+    return
+
+
+
+
+
+
+
 
 
