@@ -4,7 +4,7 @@ import shlex
 
 ip = '18.216.44.137'
 remote_username = 'ubuntu'
-pem_path = '/home/bgpelkie/silica-np-opt-key.pem'
+pem_path = '/Users/bgpelkie/silica-np-opt-key.pem'
 date_format = "%Y-%m-%d %H:%M:%S"
 
 
@@ -15,7 +15,8 @@ data_package_filename = 'packet.txt'
 
 def trigger_usaxs_measurement(sample_name, sample_uuid, sample_composition):
 
-    trigger_data = trigger_data = [datetime.datetime.now().strftime(date_format), sample_name, sample_composition, sample_uuid]
+    trigger_data = [datetime.datetime.now().strftime(date_format), sample_name, sample_composition, str(sample_uuid)]
+    print('trigger data: ', trigger_data)
 
     with open(f'{local_working_directory}/{data_package_filename}', 'wt') as f:
         for entry in trigger_data:
