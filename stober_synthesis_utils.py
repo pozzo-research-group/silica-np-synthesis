@@ -44,6 +44,45 @@ class Stocks():
     def get_current_volumes(self):
         return self.current_volumes
 
+class SampleWells():
+
+    def __init__(self, stock_plates):
+        """
+        Class to keep track of sample locations and get the next clean well
+
+        Params:
+        -------
+        stock_plates: dictionary of {plate_name: labware}
+        """
+        self.labware = stock_plates
+
+        self.wells = {}
+        for name, labware in self.labware.items():
+            for well_name in labware.wells.items():
+                well_name = f'{name}_{well_name}'
+                status = 'clean'
+                sample = None
+                self.wells[well_name] = {'status': status, 'sample': sample}
+
+    def get_next_clean_well(self):
+        for well_name, well in self.wells.items():
+            if well['status'] == 'clean':
+                return well_name
+        raise AssertionError('No clean wells available')
+
+    def get_well_for_sample(self, sample_uuid):
+        clean_well_name = self.get_next_clean_well()
+
+        self.wells[clean_well_name]['status'] = 'used'
+        self.wells[clean_well_name]['sample'] = sample_uuid
+
+        clean_well = self.wells[clean_well_name]
+        return clean_well
+
+
+    def get_sample_wells(self):
+        return self.sample_table
+
 
 def _update_current_stock(stocks, stock_volumes, transfer_volume):
     """
