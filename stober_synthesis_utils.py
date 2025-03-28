@@ -58,11 +58,11 @@ class SampleWells():
 
         self.wells = {}
         for name, labware in self.labware.items():
-            for well_name in labware.wells.items():
+            for well_name, well in labware.wells.items():
                 well_name = f'{name}_{well_name}'
                 status = 'clean'
                 sample = None
-                self.wells[well_name] = {'status': status, 'sample': sample}
+                self.wells[well_name] = {'well':well, 'status': status, 'sample': sample}
 
     def get_next_clean_well(self):
         for well_name, well in self.wells.items():
@@ -76,7 +76,7 @@ class SampleWells():
         self.wells[clean_well_name]['status'] = 'used'
         self.wells[clean_well_name]['sample'] = sample_uuid
 
-        clean_well = self.wells[clean_well_name]
+        clean_well = self.wells[clean_well_name]['well']
         return clean_well
 
 
