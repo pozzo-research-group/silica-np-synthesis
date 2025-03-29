@@ -1,7 +1,7 @@
 {
     "TEOS": {
         "minimum_volume_fraction": 0.0035,
-        "maximum_volume_fraction": 0.08,
+        "maximum_volume_fraction": 0.06,
         "dilution_ratio":2.85,
         "solvent": "ethanol",
         "density": 0.933,
@@ -24,7 +24,7 @@
     },
     "ammonia": {
         "minimum_volume_fraction": 0.01,
-        "maximum_volume_fraction": 0.10,
+        "maximum_volume_fraction": 0.06,
         "dilution_ratio":1,
         "density": 0.9,
         "molecular_weight": 35.046,
