@@ -2,7 +2,8 @@ import datetime
 import subprocess
 import shlex
 import requests
-
+import uuid
+import time
 ip = '18.216.44.137'
 remote_username = 'ubuntu'
 pem_path = '/Users/bgpelkie/silica-np-opt-key.pem'
@@ -69,7 +70,7 @@ def copy_remote_file(instance_ip, user_name, remote_path, local_path, pem_path,c
 
 
 
-def watch_usaxs_measurement(sample_uuid, ip):
+def watch_usaxs_measurement(sample_uuid, usaxs_server_ip, afl_ip):
 
     """
     Starts a monitoring thread to watch USAXS measurements for a given sample UUID.
@@ -79,7 +80,7 @@ def watch_usaxs_measurement(sample_uuid, ip):
     """
     import threading
 
-    monitor_thread = threading.Thread(target=saxs_monitor, args=(sample_uuid, ip))
+    monitor_thread = threading.Thread(target=saxs_monitor, args=(sample_uuid, usaxs_server_ip, afl_ip))
     monitor_thread.daemon = True  # Thread will exit when main program exits
     monitor_thread.start()
 
@@ -96,17 +97,19 @@ def saxs_monitor(sample_uuid, usaxs_server_ip, afl_ip):
     password = 'domo_arigato'
 
 
-
+    print(f'Waiting for sample {sample_uuid} to finish scan...') 
     while True:
-        response = requests.post(usaxs_server_url, json={'id': sample_uuid})
+        response = requests.post(usaxs_server_url, json={'id': str(sample_uuid)})
 
         status = response.json()['usaxs_status']
 
         if status == 'complete':
+            print('Scan finished')
             break
 
+        time.sleep(10)
     # call AFL rinse
-
+    print(f'logging into afl with url {afl_url}')
     # login
     r = requests.post(
             afl_url + "/login",
@@ -116,6 +119,8 @@ def saxs_monitor(sample_uuid, usaxs_server_ip, afl_ip):
     token = r.json()["token"]
     auth_header = {"Authorization": f"Bearer {token}"}
 
+    print('Got logged in, auth: ', auth_header)
+
     task = {"task_name": "rinseCell"}
 
     r = requests.post(afl_url + "/enqueue", headers=auth_header, json=task)
@@ -124,6 +129,19 @@ def saxs_monitor(sample_uuid, usaxs_server_ip, afl_ip):
             raise Exception(f"Error enqueuing task: {r.json()}")
 
     return
+
+def measure_blank(well, psl, syringe, sample_name, composition, usaxs_server_ip, afl_ip):
+    # prepare cell
+    psl.prepare_cell()
+    # load ethanol into catch
+    psl.load_sample(syringe, well, 1500)
+    
+    # load sample 
+
+    sample_uid = uuid.uuid4()
+
+    #trigger_usaxs_measurement(sample_name, sample_uid, composition)
+    #watch_usaxs_measurement(sample_uid, usaxs_server_ip, afl_ip)
 
 
 
