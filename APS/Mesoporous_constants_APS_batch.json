@@ -18,7 +18,7 @@
         "density": 0.9982,
         "stock_concentration": 55.51,
         "molecular_weight": 18.015,
-        "stock_source": "Benson DI machine",
+        "stock_source": "Sector9",
         "manufacturer": "nan",
         "lot_number": "nan"
     },
@@ -40,7 +40,7 @@
         "density": 0.789,
         "molecular_weight": 46.07,
         "stock_concentration": 55.51,
-        "stock_source": "Benson aliquot from MolES",
+        "stock_source": "ShippedEthanol",
         "manufacturer": "Decon_labs",
         "lot_number": "A09101901S"
     },
