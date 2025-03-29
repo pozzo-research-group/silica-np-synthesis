@@ -1,7 +1,7 @@
 {
     "TEOS": {
         "minimum_volume_fraction": 0.0035,
-        "maximum_volume_fraction": 0.06,
+        "maximum_volume_fraction": 0.04,
         "dilution_ratio":2.85,
         "solvent": "ethanol",
         "density": 0.933,
