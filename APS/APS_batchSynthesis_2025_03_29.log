@@ -2046,3 +2046,139 @@
 2025-03-31 01:16:58,289:INFO:stober_synthesis_utils:Dispensed 2413.160771060114 uL of water_volume into Well B3 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
 2025-03-31 01:17:05,696:INFO:__main__:Added water to b989e35a-cbc7-49a2-a1b7-fc0b74e2b0ef
 2025-03-31 01:17:11,984:INFO:stober_synthesis_utils:Refilling 1cc_2_hamilton with 544.9963491410017 uL from Well A3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+2025-03-31 01:18:15,951:INFO:stober_synthesis_utils:Dispensed 677.6544732972981 uL of ammonia_volume into Well B3 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 01:18:22,871:INFO:__main__:Added ammonia to b989e35a-cbc7-49a2-a1b7-fc0b74e2b0ef
+2025-03-31 01:19:06,126:INFO:stober_synthesis_utils:Dispensed 519.9038609862328 uL from Well C3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4 into Well B3 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 01:19:56,237:INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B2 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well B3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+2025-03-31 01:20:02,635:INFO:__main__:Added 519.9038609862328 uL F127 to b989e35a-cbc7-49a2-a1b7-fc0b74e2b0ef
+2025-03-31 01:20:53,987:INFO:stober_synthesis_utils:Dispensed 3392.849626640479 uL from Well A2 form 20mLscintillation 12 Well Plate 18000 µL on slot 4 into Well B3 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 01:21:41,730:INFO:stober_synthesis_utils:Dispensed 3392.849626640479 uL from Well A3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4 into Well B3 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 01:22:29,438:INFO:stober_synthesis_utils:Dispensed 3392.849626640479 uL from Well A3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4 into Well B3 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 01:23:17,114:INFO:stober_synthesis_utils:Dispensed 3392.849626640479 uL from Well A3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4 into Well B3 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 01:24:08,532:INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B2 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well B3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+2025-03-31 01:24:15,079:INFO:__main__:Added 3392.849626640479 uL ctab to b989e35a-cbc7-49a2-a1b7-fc0b74e2b0ef
+2025-03-31 01:25:12,691:INFO:stober_synthesis_utils:Mixed well Well B3 form 20mLscintillation 12 Well Plate 18000 µL on slot 2 3 times, 5000 uL per cycle
+2025-03-31 01:25:12,692:INFO:stober_synthesis_utils:Washed mix syringe in wash solutions []
+2025-03-31 01:25:25,288:INFO:stober_synthesis_utils:Refilling 1cc_3_hamilton with 582.5501587488689 uL from Well A1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+2025-03-31 01:26:20,404:INFO:stober_synthesis_utils:Dispensed 739.1107202027924 uL of teos_volume into Well B3 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 01:28:31,724:INFO:stober_synthesis_utils:Mixed well Well B3 form 20mLscintillation 12 Well Plate 18000 µL on slot 2 5 times, 8000 uL per cycle
+2025-03-31 01:30:49,551:INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C2 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+2025-03-31 01:31:04,519:INFO:__main__:Added TEOS to sample SobolBatch_58 at 01:26
+2025-03-31 01:33:03,962:INFO:__main__:Starting sample SobolBatch_59, 5bc780b1-7565-40b3-a3e6-ab28ae987cd2 in well Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 01:33:44,821:INFO:stober_synthesis_utils:Dispensed 1853.198975801235 uL from Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4 into Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 01:34:00,555:INFO:__main__:Added 1853.198975801235 uL ethanol to 5bc780b1-7565-40b3-a3e6-ab28ae987cd2
+2025-03-31 01:34:06,419:INFO:stober_synthesis_utils:Refilling 1cc_1 with 653.2901927650285 uL from Well A4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+2025-03-31 01:35:02,141:INFO:stober_synthesis_utils:Dispensed 1715.6862523298078 uL of water_volume into Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 01:35:02,144:INFO:stober_synthesis_utils:Refilling 1cc_1 with 621.8954174432693 uL from Well A4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+2025-03-31 01:35:58,710:INFO:stober_synthesis_utils:Dispensed 1715.6862523298078 uL of water_volume into Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 01:35:58,712:INFO:stober_synthesis_utils:Refilling 1cc_1 with 621.8954174432693 uL from Well A4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+2025-03-31 01:36:55,298:INFO:stober_synthesis_utils:Dispensed 1715.6862523298078 uL of water_volume into Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 01:37:02,664:INFO:__main__:Added water to 5bc780b1-7565-40b3-a3e6-ab28ae987cd2
+2025-03-31 01:37:08,839:INFO:stober_synthesis_utils:Refilling 1cc_2_hamilton with 727.6544732972981 uL from Well A3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+2025-03-31 01:38:13,884:INFO:stober_synthesis_utils:Dispensed 556.4359072595836 uL of ammonia_volume into Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 01:38:21,048:INFO:__main__:Added ammonia to 5bc780b1-7565-40b3-a3e6-ab28ae987cd2
+2025-03-31 01:39:16,076:INFO:stober_synthesis_utils:Dispensed 3740.7169975340366 uL from Well C3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4 into Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 01:40:04,123:INFO:stober_synthesis_utils:Dispensed 3740.7169975340366 uL from Well C3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4 into Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 01:40:52,037:INFO:stober_synthesis_utils:Dispensed 3740.7169975340366 uL from Well C3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4 into Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 01:41:40,075:INFO:stober_synthesis_utils:Dispensed 3740.7169975340366 uL from Well C3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4 into Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 01:42:31,683:INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B2 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well B3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+2025-03-31 01:42:38,318:INFO:__main__:Added 3740.7169975340366 uL F127 to 5bc780b1-7565-40b3-a3e6-ab28ae987cd2
+2025-03-31 01:43:29,971:INFO:stober_synthesis_utils:Dispensed 1682.769254470865 uL from Well A3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4 into Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 01:44:17,763:INFO:stober_synthesis_utils:Dispensed 1682.769254470865 uL from Well A3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4 into Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 01:45:09,774:INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B2 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well B3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+2025-03-31 01:45:16,508:INFO:__main__:Added 1682.769254470865 uL ctab to 5bc780b1-7565-40b3-a3e6-ab28ae987cd2
+2025-03-31 01:46:14,263:INFO:stober_synthesis_utils:Mixed well Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 2 3 times, 5000 uL per cycle
+2025-03-31 01:46:14,266:INFO:stober_synthesis_utils:Washed mix syringe in wash solutions []
+2025-03-31 01:46:27,072:INFO:stober_synthesis_utils:Refilling 1cc_3_hamilton with 789.1107202027924 uL from Well A1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+2025-03-31 01:47:21,271:INFO:stober_synthesis_utils:Dispensed 451.1926126044709 uL of teos_volume into Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 01:49:32,945:INFO:stober_synthesis_utils:Mixed well Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 2 5 times, 8000 uL per cycle
+2025-03-31 01:51:50,980:INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C2 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+2025-03-31 01:52:06,121:INFO:__main__:Added TEOS to sample SobolBatch_59 at 01:47
+2025-03-31 01:59:51,719:INFO:__main__:Starting sample SobolBatch_60, c6f1e48e-3264-47f9-8da5-0586be43894d in well Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 02:00:35,537:INFO:stober_synthesis_utils:Dispensed 2429.921646699542 uL from Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4 into Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 02:00:51,847:INFO:__main__:Added 2429.921646699542 uL ethanol to c6f1e48e-3264-47f9-8da5-0586be43894d
+2025-03-31 02:00:57,705:INFO:stober_synthesis_utils:Refilling 1cc_1 with 621.8954174432693 uL from Well A4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+2025-03-31 02:01:54,921:INFO:stober_synthesis_utils:Dispensed 1960.1686373710008 uL of water_volume into Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 02:01:54,924:INFO:stober_synthesis_utils:Refilling 1cc_1 with 703.3895457903336 uL from Well A4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+2025-03-31 02:02:55,807:INFO:stober_synthesis_utils:Dispensed 1960.1686373710008 uL of water_volume into Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 02:02:55,810:INFO:stober_synthesis_utils:Refilling 1cc_1 with 703.3895457903336 uL from Well A4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+2025-03-31 02:03:56,662:INFO:stober_synthesis_utils:Dispensed 1960.1686373710008 uL of water_volume into Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 02:04:03,974:INFO:__main__:Added water to c6f1e48e-3264-47f9-8da5-0586be43894d
+2025-03-31 02:04:35,329:INFO:stober_synthesis_utils:Dispensed 362.2206263244152 uL of ammonia_volume into Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 02:04:42,702:INFO:__main__:Added ammonia to c6f1e48e-3264-47f9-8da5-0586be43894d
+2025-03-31 02:05:33,725:INFO:stober_synthesis_utils:Dispensed 3878.598729148507 uL from Well C3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4 into Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 02:06:18,494:INFO:stober_synthesis_utils:Dispensed 3878.598729148507 uL from Well C3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4 into Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 02:07:03,701:INFO:stober_synthesis_utils:Dispensed 3878.598729148507 uL from Well C4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4 into Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 02:07:48,915:INFO:stober_synthesis_utils:Dispensed 3878.598729148507 uL from Well C4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4 into Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 02:08:34,169:INFO:stober_synthesis_utils:Dispensed 3878.598729148507 uL from Well C4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4 into Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 02:09:26,075:INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B2 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well B3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+2025-03-31 02:09:32,542:INFO:__main__:Added 3878.598729148507 uL F127 to c6f1e48e-3264-47f9-8da5-0586be43894d
+2025-03-31 02:10:23,121:INFO:stober_synthesis_utils:Dispensed 778.4197429815929 uL from Well A3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4 into Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 02:11:16,114:INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B2 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well B3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+2025-03-31 02:11:22,750:INFO:__main__:Added 778.4197429815929 uL ctab to c6f1e48e-3264-47f9-8da5-0586be43894d
+2025-03-31 02:12:20,754:INFO:stober_synthesis_utils:Mixed well Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 2 3 times, 5000 uL per cycle
+2025-03-31 02:12:20,757:INFO:stober_synthesis_utils:Washed mix syringe in wash solutions []
+2025-03-31 02:12:33,872:INFO:stober_synthesis_utils:Refilling 1cc_3_hamilton with 501.1926126044709 uL from Well A1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+2025-03-31 02:13:24,620:INFO:stober_synthesis_utils:Dispensed 590.6706174749414 uL of teos_volume into Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 02:15:36,916:INFO:stober_synthesis_utils:Mixed well Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 2 5 times, 8000 uL per cycle
+2025-03-31 02:17:55,650:INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C2 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+2025-03-31 02:18:10,758:INFO:__main__:Added TEOS to sample SobolBatch_60 at 02:13
+2025-03-31 02:20:37,783:INFO:__main__:Starting sample SobolBatch_61, a7f58ce6-11ea-4da9-87e7-1a11032e29ab in well Well C2 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 02:21:19,526:INFO:stober_synthesis_utils:Dispensed 1749.0953582497314 uL from Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4 into Well C2 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 02:21:35,675:INFO:__main__:Added 1749.0953582497314 uL ethanol to a7f58ce6-11ea-4da9-87e7-1a11032e29ab
+2025-03-31 02:21:41,545:INFO:stober_synthesis_utils:Refilling 1cc_1 with 703.3895457903336 uL from Well A4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+2025-03-31 02:22:40,585:INFO:stober_synthesis_utils:Dispensed 3336.1417199981715 uL of water_volume into Well C2 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 02:22:40,588:INFO:stober_synthesis_utils:Refilling 1cc_1 with 717.2283439996343 uL from Well B1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+2025-03-31 02:23:41,050:INFO:stober_synthesis_utils:Dispensed 3336.1417199981715 uL of water_volume into Well C2 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 02:23:41,053:INFO:stober_synthesis_utils:Refilling 1cc_1 with 717.2283439996343 uL from Well B1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+2025-03-31 02:24:41,570:INFO:stober_synthesis_utils:Dispensed 3336.1417199981715 uL of water_volume into Well C2 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 02:24:41,573:INFO:stober_synthesis_utils:Refilling 1cc_1 with 717.2283439996343 uL from Well B1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+2025-03-31 02:25:42,027:INFO:stober_synthesis_utils:Dispensed 3336.1417199981715 uL of water_volume into Well C2 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 02:25:42,028:INFO:stober_synthesis_utils:Refilling 1cc_1 with 717.2283439996343 uL from Well B1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+2025-03-31 02:26:42,916:INFO:stober_synthesis_utils:Dispensed 3336.1417199981715 uL of water_volume into Well C2 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 02:26:50,386:INFO:__main__:Added water to a7f58ce6-11ea-4da9-87e7-1a11032e29ab
+2025-03-31 02:26:56,657:INFO:stober_synthesis_utils:Refilling 1cc_2_hamilton with 968.6565335839988 uL from Well A3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+2025-03-31 02:28:00,260:INFO:stober_synthesis_utils:Dispensed 215.61967078596356 uL of ammonia_volume into Well C2 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 02:28:07,698:INFO:__main__:Added ammonia to a7f58ce6-11ea-4da9-87e7-1a11032e29ab
+2025-03-31 02:28:52,581:INFO:stober_synthesis_utils:Dispensed 1049.6071558445692 uL from Well C4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4 into Well C2 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 02:29:30,844:INFO:stober_synthesis_utils:Dispensed 1049.6071558445692 uL from Well C4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4 into Well C2 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 02:30:22,340:INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B2 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well B3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+2025-03-31 02:30:28,969:INFO:__main__:Added 1049.6071558445692 uL F127 to a7f58ce6-11ea-4da9-87e7-1a11032e29ab
+2025-03-31 02:31:23,436:INFO:stober_synthesis_utils:Dispensed 2818.439372504751 uL from Well A3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4 into Well C2 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 02:32:14,540:INFO:stober_synthesis_utils:Dispensed 2818.439372504751 uL from Well A3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4 into Well C2 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 02:33:05,691:INFO:stober_synthesis_utils:Dispensed 2818.439372504751 uL from Well A3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4 into Well C2 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 02:33:57,589:INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B2 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well B3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+2025-03-31 02:34:04,159:INFO:__main__:Added 2818.439372504751 uL ctab to a7f58ce6-11ea-4da9-87e7-1a11032e29ab
+2025-03-31 02:35:02,005:INFO:stober_synthesis_utils:Mixed well Well C2 form 20mLscintillation 12 Well Plate 18000 µL on slot 2 3 times, 5000 uL per cycle
+2025-03-31 02:35:02,007:INFO:stober_synthesis_utils:Washed mix syringe in wash solutions []
+2025-03-31 02:35:14,775:INFO:stober_synthesis_utils:Refilling 1cc_3_hamilton with 640.6706174749414 uL from Well A1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+2025-03-31 02:36:04,768:INFO:stober_synthesis_utils:Dispensed 831.0967226168141 uL of teos_volume into Well C2 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 02:36:04,770:INFO:stober_synthesis_utils:Refilling 1cc_3_hamilton with 465.54836130840704 uL from Well A1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+2025-03-31 02:36:52,614:INFO:stober_synthesis_utils:Dispensed 831.0967226168141 uL of teos_volume into Well C2 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 02:39:04,700:INFO:stober_synthesis_utils:Mixed well Well C2 form 20mLscintillation 12 Well Plate 18000 µL on slot 2 5 times, 8000 uL per cycle
+2025-03-31 02:41:23,569:INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well C1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C2 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well C4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+2025-03-31 02:41:38,736:INFO:__main__:Added TEOS to sample SobolBatch_61 at 02:36
+2025-03-31 02:47:56,530:INFO:__main__:Starting sample SobolBatch_62, 4356786c-177a-45a2-a2c9-36ce1e03c05b in well Well C3 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 02:48:40,817:INFO:stober_synthesis_utils:Dispensed 2380.678018657258 uL from Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4 into Well C3 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 02:48:56,950:INFO:__main__:Added 2380.678018657258 uL ethanol to 4356786c-177a-45a2-a2c9-36ce1e03c05b
+2025-03-31 02:49:02,799:INFO:stober_synthesis_utils:Refilling 1cc_1 with 717.2283439996343 uL from Well B1 form 20mLscintillation 12 Well Plate 18000 µL on slot 4
+2025-03-31 02:49:55,024:INFO:stober_synthesis_utils:Dispensed 371.6343169736974 uL of water_volume into Well C3 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 02:50:02,374:INFO:__main__:Added water to 4356786c-177a-45a2-a2c9-36ce1e03c05b
+2025-03-31 02:50:34,010:INFO:stober_synthesis_utils:Dispensed 385.67788871005183 uL of ammonia_volume into Well C3 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 02:50:41,035:INFO:__main__:Added ammonia to 4356786c-177a-45a2-a2c9-36ce1e03c05b
+2025-03-31 02:51:14,235:INFO:stober_synthesis_utils:Dispensed 106.91599734127522 uL from Well C3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4 into Well C3 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 02:52:05,299:INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B2 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well B3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+2025-03-31 02:52:11,562:INFO:__main__:Added 106.91599734127522 uL F127 to 4356786c-177a-45a2-a2c9-36ce1e03c05b
+2025-03-31 02:53:06,075:INFO:stober_synthesis_utils:Dispensed 6646.212135131161 uL from Well A3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4 into Well C3 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 02:53:57,181:INFO:stober_synthesis_utils:Dispensed 6646.212135131161 uL from Well A3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4 into Well C3 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 02:54:48,181:INFO:stober_synthesis_utils:Dispensed 6646.212135131161 uL from Well A3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4 into Well C3 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 02:55:39,267:INFO:stober_synthesis_utils:Dispensed 6646.212135131161 uL from Well A3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4 into Well C3 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 02:56:30,404:INFO:stober_synthesis_utils:Dispensed 6646.212135131161 uL from Well A3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4 into Well C3 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 02:57:21,482:INFO:stober_synthesis_utils:Dispensed 6646.212135131161 uL from Well A3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4 into Well C3 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 02:58:12,556:INFO:stober_synthesis_utils:Dispensed 6646.212135131161 uL from Well A3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4 into Well C3 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 02:59:04,672:INFO:stober_synthesis_utils:Washed mix syringe in wash solutions [Well B2 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well B3 form 20mLscintillation 12 Well Plate 18000 µL on slot 4, Well B4 form 20mLscintillation 12 Well Plate 18000 µL on slot 4]
+2025-03-31 02:59:11,314:INFO:__main__:Added 6646.212135131161 uL ctab to 4356786c-177a-45a2-a2c9-36ce1e03c05b
+2025-03-31 03:00:09,253:INFO:stober_synthesis_utils:Mixed well Well C3 form 20mLscintillation 12 Well Plate 18000 µL on slot 2 3 times, 5000 uL per cycle
+2025-03-31 03:00:09,255:INFO:stober_synthesis_utils:Washed mix syringe in wash solutions []
+2025-03-31 03:00:34,943:INFO:stober_synthesis_utils:Dispensed 108.88164318655618 uL of teos_volume into Well C3 form 20mLscintillation 12 Well Plate 18000 µL on slot 2
+2025-03-31 03:02:47,203:INFO:stober_synthesis_utils:Mixed well Well C3 form 20mLscintillation 12 Well Plate 18000 µL on slot 2 5 times, 8000 uL per cycle
