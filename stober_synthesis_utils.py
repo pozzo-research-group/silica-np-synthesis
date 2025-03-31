@@ -184,7 +184,7 @@ def add_reactants_batch(jubilee, reactant_syringe, mix_syringe, sample_table, lo
         dispense_location = location_lookup[uuid]
 
         # need to account for dispenses > syringe volume
-        n_dispenses = int(np.ceil(dispense_volume / (reactant_syringe.capacity*.9)))
+        n_dispenses = int(np.ceil(dispense_volume / (reactant_syringe.capacity*.8)))
         step_volume = dispense_volume/n_dispenses
         print(f'breaking dispense into {n_dispenses} of volume {step_volume}')
 
