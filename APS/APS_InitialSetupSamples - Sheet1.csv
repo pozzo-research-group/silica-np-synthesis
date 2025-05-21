@@ -1,0 +1,5 @@
+sample_name,uuid,teos_volume,ammonia_volume,water_volume,ethanol_volume,ctab_volume,f127_volume
+silica_free_blank,1,0,733,1504,2746,2190,2700
+control_1,2,131,733,1504,2746,2190,2700
+control_2,3,131,733,1504,2746,2190,2700
+control_3,4,131,733,1504,2746,2190,2700

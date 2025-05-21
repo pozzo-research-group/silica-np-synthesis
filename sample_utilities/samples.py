@@ -7,7 +7,7 @@ import pandas as pd
 class Reactant:
 
 
-    def __init__(self, name, concentration, density, molecular_weight, minimum_volume_fraction, maximum_volume_fraction, source, manufacturer, lot_number, dilution_ratio = None):
+    def __init__(self, name, concentration, density, molecular_weight, minimum_volume_fraction, maximum_volume_fraction, source, manufacturer, lot_number, dilution_ratio = None, **kwargs):
         """
         Dilution ratio: how many times reactant is diluted (ie 6x dilution is 5 parts ethanol/1 part reactant)
         """
@@ -21,6 +21,9 @@ class Reactant:
         self.source = source
         self.manufacturer = manufacturer
         self.lot_number = lot_number
+
+        for key, value in kwargs.items():
+            setattr(self, key, value)
 
         if dilution_ratio is None:
             dilution_ratio = 1
@@ -210,6 +213,106 @@ def generate_synthesis_table(samples):
     return sample_table
 
 
+class MesoporousSample:
+
+    silica_molecular_weight = 60.08 #g/mol
+    
+    def __init__(self, target_volume, reactant_fp = None, teos_vol_frac = None, ammonia_vol_frac = None, water_vol_frac = None, ethanol_vol_frac = None, ctab_mass = None, f127_mass = None, reactants = None, uuid_val = None):
+        
+        self.target_volume = target_volume
+
+        if uuid_val is None:
+            self.uuid = uuid.uuid4()
+        else:
+            self.uuid = uuid_val
+
+        if reactant_fp is None and teos_vol_frac is None:
+            raise AssertionError('Must pass reactant filepath or reactant objects')
+        
+        if reactant_fp is not None:
+            # Load from file pathway
+
+
+            with open(reactant_fp, 'rt') as f:
+                constants = json.load(f)
+
+            # load TEOS
+            reactant_data = constants['TEOS']
+            self.teos = Reactant('teos', reactant_data['stock_concentration'], density = reactant_data['density'], molecular_weight = reactant_data['molecular_weight'], minimum_volume_fraction=reactant_data['minimum_volume_fraction'], maximum_volume_fraction=reactant_data['maximum_volume_fraction'], source=reactant_data['stock_source'], manufacturer = reactant_data['manufacturer'], lot_number=reactant_data['lot_number'], dilution_ratio=reactant_data['dilution_ratio'])
+
+            # Load ammonia
+            reactant_data = constants['ammonia']
+            self.ammonia = Reactant('ammonia', reactant_data['stock_concentration'], density = reactant_data['density'], molecular_weight = reactant_data['molecular_weight'], minimum_volume_fraction=reactant_data['minimum_volume_fraction'], maximum_volume_fraction=reactant_data['maximum_volume_fraction'], source=reactant_data['stock_source'], manufacturer = reactant_data['manufacturer'], lot_number=reactant_data['lot_number'], dilution_ratio=reactant_data['dilution_ratio'])
+
+            # Load water
+            reactant_data = constants['water']
+            self.water = Reactant('water', reactant_data['stock_concentration'], density = reactant_data['density'], molecular_weight = reactant_data['molecular_weight'], minimum_volume_fraction=reactant_data['minimum_volume_fraction'], maximum_volume_fraction=reactant_data['maximum_volume_fraction'], source=reactant_data['stock_source'], manufacturer = reactant_data['manufacturer'], lot_number=reactant_data['lot_number'], dilution_ratio=reactant_data['dilution_ratio'])
+
+            # Load ethanol
+            reactant_data = constants['ethanol']
+            self.ethanol = Reactant('ethanol', reactant_data['stock_concentration'], density = reactant_data['density'], molecular_weight = reactant_data['molecular_weight'], minimum_volume_fraction=reactant_data['minimum_volume_fraction'], maximum_volume_fraction=reactant_data['maximum_volume_fraction'], source=reactant_data['stock_source'], manufacturer = reactant_data['manufacturer'], lot_number=reactant_data['lot_number'], dilution_ratio=reactant_data['dilution_ratio'])
+
+            # load ctab
+            reactant_data = constants['ctab']
+            self.ctab = Reactant('ctab', reactant_data['stock_concentration_mg_uL'], density = reactant_data['density'], molecular_weight = reactant_data['molecular_weight'], minimum_volume_fraction=reactant_data['minimum_volume_fraction'], maximum_volume_fraction=reactant_data['maximum_volume_fraction'], source=reactant_data['stock_source'], manufacturer = reactant_data['manufacturer'], lot_number=reactant_data['lot_number'], dilution_ratio=reactant_data['dilution_ratio'], stock_concentration_mg_uL=reactant_data['stock_concentration_mg_uL'])
+
+            # load f127
+            reactant_data = constants['f127']
+            self.f127 = Reactant('f127', reactant_data['stock_concentration'], density = reactant_data['density'], molecular_weight = reactant_data['molecular_weight'], minimum_volume_fraction=reactant_data['minimum_volume_fraction'], maximum_volume_fraction=reactant_data['maximum_volume_fraction'], source=reactant_data['stock_source'], manufacturer = reactant_data['manufacturer'], lot_number=reactant_data['lot_number'], dilution_ratio=reactant_data['dilution_ratio'], stock_concentration_mg_uL=reactant_data['stock_concentration_mg_uL'])
+            
+
+
+            self.reactants = {'teos':self.teos, 'ammonia':self.ammonia, 'water':self.water, 'ethanol':self.ethanol, 'ctab':self.ctab, 'f127':self.f127}
+
+        if reactants is not None:
+            # manual definition pathway
+            self.teos = reactants['teos']
+            self.ammonia = reactants['ammonia']
+            self.water = reactants['water']
+            self.ethanol = reactants['ethanol']
+            self.ctab = reactants['ctab']
+            self.f127 = reactants['f127']
+            self.reactants = reactants
+
+        if teos_vol_frac is not None:
+            self.teos_vol_frac = teos_vol_frac
+            self.ammonia_vol_frac = ammonia_vol_frac
+            self.water_vol_frac = water_vol_frac
+            self.ethanol_vol_frac = ethanol_vol_frac
+            self.ctab_concentration_mg_uL = ctab_mass
+            self.f127_concentration_mg_uL = f127_mass
+
+    def calculate_reactant_volumes(self):
+        """calculate the target volumes for each reactant from volume fraction and target volume"""
+
+        
+        solvent_ethanol_volume = 0
+        solvent_water_volume = 0
+        # calculate ethanol volume
+        self.teos_volume = self.target_volume*self.teos_vol_frac*self.teos.dilution_ratio
+        teos_etoh_vol = self.teos_volume*(self.teos.dilution_ratio-1)/self.teos.dilution_ratio
+        solvent_ethanol_volume += teos_etoh_vol
+        #print(teos_etoh_vol)
+
+
+        self.ammonia_volume = self.target_volume * self.ammonia_vol_frac*self.ammonia.dilution_ratio
+        solvent_ethanol_volume += self.ammonia_volume * (self.ammonia.dilution_ratio-1)/self.ammonia.dilution_ratio
+
+        
+        print(solvent_ethanol_volume)
+        
+        self.ctab_volume = self.ctab_concentration_mg_uL * self.target_volume / self.ctab.stock_concentration_mg_uL
+        solvent_water_volume += self.ctab_volume
+        self.f127_volume = self.f127_concentration_mg_uL * self.target_volume / self.f127.stock_concentration_mg_uL
+        solvent_water_volume += self.f127_volume
+
+
+
+        self.ethanol_volume = self.target_volume * self.ethanol_vol_frac - solvent_ethanol_volume
+        self.water_volume = self.target_volume * self.water_vol_frac - solvent_water_volume
+        return
+        
+        
     
 
 
