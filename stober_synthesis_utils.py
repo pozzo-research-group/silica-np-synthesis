@@ -203,7 +203,7 @@ def add_reactants_batch(jubilee, reactant_syringe, mix_syringe, sample_table, lo
             jubilee.park_tool()
             jubilee.pickup_tool(mix_syringe)
             
-            mix_syringe.mix(mix_vol, n_mix, dispense_location.bottom(+5), s_aspirate = 2000, s_dispense = 500)
+            mix_syringe.mix(mix_vol, n_mix, dispense_location.bottom(+5), s_aspirate = 2000, s_dispense = 2000)
             logger.info(f'Mixed well {dispense_location} {n_mix} times, {mix_vol} uL per cycle')
 
             for stock in wash_stocks:
@@ -227,11 +227,11 @@ def first_mix(jubilee, mix_syringe, mix_vol, location_lookup, wash_stocks, n_mix
     jubilee.pickup_tool(mix_syringe)
     
     for name, well in location_lookup.items():
-        mix_syringe.mix(mix_vol, n_mix, well.bottom(+5), s_aspirate = 2000, s_dispense = 500)
+        mix_syringe.mix(mix_vol, n_mix, well.bottom(+5), s_aspirate = 2000, s_dispense = 2000)
         logger.info(f'Mixed well {well} {n_mix} times, {mix_vol} uL per cycle')
 
         for stock in wash_stocks:
-            mix_syringe.mix(mix_vol, n_rinse, stock.bottom(+10), t_hold = 3, s_aspirate = 2000, s_dispense = 500)
+            mix_syringe.mix(mix_vol, n_rinse, stock.bottom(+10), t_hold = 3, s_aspirate = 2000, s_dispense = 1000)
 
         logger.info(f'Washed mix syringe in wash solutions {wash_stocks}')
 
