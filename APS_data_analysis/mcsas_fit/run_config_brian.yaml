@@ -1,0 +1,18 @@
+modelName: sphere+fractal
+nContrib: 300
+modelDType: default
+fitParameterLimits:
+  B_radius: auto
+staticParameters:
+  A_radius: 25 # example
+  A_sld: 8.575 # units of 1e-6 A^-2
+  A_sld_solvent: 9.469
+  B_sld_block: 8.575
+  B_sld_solvent: 9.469
+  B_fractal_dim: 3
+  B_cor_length: 26 # ibid
+  B_volfraction: 0.2 # it is not possible to get both a unique volume fraction and size distribution!
+maxIter: 1000
+convCrit: 1
+nRep: 3
+nCores: 5
