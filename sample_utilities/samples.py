@@ -254,11 +254,11 @@ class MesoporousSample:
 
             # load ctab
             reactant_data = constants['ctab']
-            self.ctab = Reactant('ctab', reactant_data['stock_concentration_mg_uL'], density = reactant_data['density'], molecular_weight = reactant_data['molecular_weight'], minimum_volume_fraction=reactant_data['minimum_volume_fraction'], maximum_volume_fraction=reactant_data['maximum_volume_fraction'], source=reactant_data['stock_source'], manufacturer = reactant_data['manufacturer'], lot_number=reactant_data['lot_number'], dilution_ratio=reactant_data['dilution_ratio'], stock_concentration_mg_uL=reactant_data['stock_concentration_mg_uL'])
+            self.ctab = Reactant('ctab', reactant_data['stock_concentration_mg_uL'], density = reactant_data['density'], molecular_weight = reactant_data['molecular_weight'], minimum_volume_fraction = None, maximum_volume_fraction=None, source=reactant_data['stock_source'], manufacturer = reactant_data['manufacturer'], lot_number=reactant_data['lot_number'], dilution_ratio=reactant_data['dilution_ratio'], stock_concentration_mg_uL=reactant_data['stock_concentration_mg_uL'])
 
             # load f127
             reactant_data = constants['f127']
-            self.f127 = Reactant('f127', reactant_data['stock_concentration'], density = reactant_data['density'], molecular_weight = reactant_data['molecular_weight'], minimum_volume_fraction=reactant_data['minimum_volume_fraction'], maximum_volume_fraction=reactant_data['maximum_volume_fraction'], source=reactant_data['stock_source'], manufacturer = reactant_data['manufacturer'], lot_number=reactant_data['lot_number'], dilution_ratio=reactant_data['dilution_ratio'], stock_concentration_mg_uL=reactant_data['stock_concentration_mg_uL'])
+            self.f127 = Reactant('f127', reactant_data['stock_concentration'], density = reactant_data['density'], molecular_weight = reactant_data['molecular_weight'], minimum_volume_fraction=None, maximum_volume_fraction=None, source=reactant_data['stock_source'], manufacturer = reactant_data['manufacturer'], lot_number=reactant_data['lot_number'], dilution_ratio=reactant_data['dilution_ratio'], stock_concentration_mg_uL=reactant_data['stock_concentration_mg_uL'])
             
 
 
@@ -279,8 +279,8 @@ class MesoporousSample:
             self.ammonia_vol_frac = ammonia_vol_frac
             self.water_vol_frac = water_vol_frac
             self.ethanol_vol_frac = ethanol_vol_frac
-            self.ctab_concentration_mg_uL = ctab_mass
-            self.f127_concentration_mg_uL = f127_mass
+            self.ctab_mass = ctab_mass
+            self.f127_mass = f127_mass
 
     def calculate_reactant_volumes(self):
         """calculate the target volumes for each reactant from volume fraction and target volume"""
@@ -292,18 +292,20 @@ class MesoporousSample:
         self.teos_volume = self.target_volume*self.teos_vol_frac*self.teos.dilution_ratio
         teos_etoh_vol = self.teos_volume*(self.teos.dilution_ratio-1)/self.teos.dilution_ratio
         solvent_ethanol_volume += teos_etoh_vol
-        #print(teos_etoh_vol)
+        print('TEOS ETOH: ', teos_etoh_vol)
 
 
         self.ammonia_volume = self.target_volume * self.ammonia_vol_frac*self.ammonia.dilution_ratio
         solvent_ethanol_volume += self.ammonia_volume * (self.ammonia.dilution_ratio-1)/self.ammonia.dilution_ratio
 
         
-        print(solvent_ethanol_volume)
+        print('Solvent etoh total: ', solvent_ethanol_volume)
         
-        self.ctab_volume = self.ctab_concentration_mg_uL * self.target_volume / self.ctab.stock_concentration_mg_uL
+        self.ctab_volume = self.ctab_mass/self.ctab.stock_concentration_mg_uL
+        
         solvent_water_volume += self.ctab_volume
-        self.f127_volume = self.f127_concentration_mg_uL * self.target_volume / self.f127.stock_concentration_mg_uL
+        #self.f127_volume = self.f127_concentration_mg_uL * self.target_volume / self.f127.stock_concentration_mg_uL
+        self.f127_volume = self.f127_mass/self.f127.stock_concentration_mg_uL
         solvent_water_volume += self.f127_volume
 
 
